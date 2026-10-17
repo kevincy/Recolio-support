@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en" data-language="en">
+<head>
+  <script src="assets/site.js?v=20261016-language"></script>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Support and troubleshooting for Recolio.">
+  <title>Support — Recolio</title><link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header"><div class="nav">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">R</span>Recolio</a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="guide.html"><span class="lang-en">User Guide</span><span class="lang-zh">使用手册</span></a>
+      <a href="support.html" aria-current="page"><span class="lang-en">Support</span><span class="lang-zh">支持</span></a>
+      <a href="privacy.html"><span class="lang-en">Privacy</span><span class="lang-zh">隐私</span></a>
+      <div class="language-toggle" aria-label="Language"><button type="button" data-language-choice="en">EN</button><button type="button" data-language-choice="zh">中文</button></div>
+    </nav>
+  </div></header>
+
+  <main>
+    <header class="page-hero">
+      <p class="eyebrow"><span class="lang-en">Help when you need it</span><span class="lang-zh">随时获得帮助</span></p>
+      <h1><span class="lang-en">Support</span><span class="lang-zh">技术支持</span></h1>
+      <p><span class="lang-en">Find quick answers below, or contact us with enough detail to reproduce the problem.</span><span class="lang-zh">先查看下面的快速解答；仍未解决时，请提供足够信息帮助我们复现问题。</span></p>
+    </header>
+
+    <article class="document">
+      <div class="lang-en">
+        <h2>Quick checks</h2>
+        <ol class="steps">
+          <li>Update Recolio and your operating system to the latest available version.</li>
+          <li>Confirm the original .apkg file opens correctly in its source app before importing.</li>
+          <li>Keep Recolio in the foreground during a large import, export, or first iCloud sync.</li>
+          <li>Check available device and iCloud storage when media-heavy decks fail.</li>
+          <li>Before destructive troubleshooting, export any decks you need to keep.</li>
+        </ol>
+
+        <h2>Frequently asked questions</h2>
+        <details open><summary>How do I import a deck?</summary><p>Open the Decks tab, select the add button, and choose Import Flashcards .apkg. Select a package from Files, review the detected deck and card totals, choose a Folder if desired, and start the import. The progress sheet shows total, completed, and remaining cards.</p></details>
+        <details><summary>Why is an image or audio file missing?</summary><p>First confirm the media was included when the original .apkg was exported. Open the card in the card editor to see whether the field contains a media reference. If the editor shows the media but Review does not, include the deck name, card question, media filename, device model, and app version in your report. Remote images also require a network connection and may be blocked by their host.</p></details>
+        <details><summary>Why does a complex template look different?</summary><p>Recolio supports rich HTML, CSS, JavaScript, cloze cards, MathJax, images, and audio, but desktop add-ons and templates that depend on desktop-only APIs may not work identically. Send a small non-sensitive sample package when possible. Never publish copyrighted or private deck content in a public issue.</p></details>
+        <details><summary>iCloud sync reports an error or does not finish.</summary><p>Verify that the same Apple Account is signed in, iCloud Drive is enabled, Recolio has iCloud access, and sufficient iCloud storage is available. Keep the app open for the first large sync. The app shows completed and waiting records plus the exact error. Do not repeatedly reinstall before preserving local data.</p></details>
+        <details><summary>Why is the last sync time changing?</summary><p>The displayed value should be the timestamp of the last completed sync, not a running timer. If it keeps changing without a completed sync, capture a short screen recording and report the app version and device.</p></details>
+        <details><summary>Reviewing becomes slow with a large study scope.</summary><p>Try selecting a smaller deck branch to confirm whether the delay scales with the number of cards. Report the selected scope, approximate deck/card count, the action that triggers the stall, duration, and platform. A simple card sample is especially useful because it separates scheduling work from template rendering.</p></details>
+        <details><summary>How do I restore Pro?</summary><p>Open Settings, open Recolio Pro, and choose Restore Purchases while signed in to the Apple Account used for purchase. Annual access requires an active subscription; Lifetime is a non-consumable purchase. Apple controls billing, cancellation, and refunds.</p></details>
+        <details><summary>What counts toward the Free limit?</summary><p>Free supports up to 1,000 non-suspended active cards. Demo cards do not count. Suspending cards or deleting decks releases capacity. Larger packages may be inspected before upgrading, but studying content beyond the allowance requires Pro.</p></details>
+        <details><summary>How do I cancel the annual subscription?</summary><p>Open Apple Settings → your name → Subscriptions → Recolio, or use Manage Subscription inside the app. Deleting the app does not cancel a subscription.</p></details>
+        <details><summary>How do I remove local app data?</summary><p>On iPhone or iPad, deleting the app removes its local container. On Mac Catalyst, delete the app and its Recolio container only if you understand the impact. Local deletion does not necessarily delete private iCloud data. Export important decks first and manage iCloud data separately in Apple settings.</p></details>
+
+        <h2>Contact support</h2>
+        <div class="contact-box"><p>Email <a href="mailto:hikevincheng@gmail.com?subject=Recolio%20Support">hikevincheng@gmail.com</a> or create a <a href="https://github.com/kevincy/Recolio-support/issues/new">support issue</a>.</p></div>
+        <h3>Include these details</h3>
+        <ul>
+          <li>Recolio version and build number</li>
+          <li>Device model and iOS, iPadOS, or macOS version</li>
+          <li>Whether the problem occurs on iPhone, iPad, or Mac Catalyst</li>
+          <li>Exact steps, expected result, and actual result</li>
+          <li>Approximate deck and card totals</li>
+          <li>Error text and a screenshot or short screen recording</li>
+        </ul>
+        <div class="callout"><p><strong>Protect your data:</strong> Remove private study content, personal information, access tokens, and copyrighted deck files before posting publicly. Email sensitive samples instead, and only when necessary.</p></div>
+      </div>
+
+      <div class="lang-zh">
+        <h2>快速检查</h2>
+        <ol class="steps">
+          <li>将 Recolio 和操作系统更新到当前可用的最新版本。</li>
+          <li>导入前确认原始 .apkg 文件能在来源应用中正常打开。</li>
+          <li>大型导入、导出或首次 iCloud 同步期间，让 Recolio 保持在前台。</li>
+          <li>包含大量媒体的牌组失败时，检查设备和 iCloud 剩余空间。</li>
+          <li>进行删除或重装等高风险排障前，先导出需要保留的牌组。</li>
+        </ol>
+
+        <h2>常见问题</h2>
+        <details open><summary>如何导入牌组？</summary><p>打开“牌组”，点击添加按钮，选择“导入 Flashcards .apkg”。从“文件”选择牌组包，确认识别到的牌组和卡片数量，根据需要选择“我的分组”，再开始导入。进度窗口会显示总卡片数、已完成和剩余数量。</p></details>
+        <details><summary>为什么图片或音频缺失？</summary><p>首先确认导出原始 .apkg 时已经包含媒体。进入卡片编辑器，检查字段中是否存在媒体引用。如果编辑器能显示媒体但复习页不能，请在报告中提供牌组名、卡片问题、媒体文件名、设备型号和 App 版本。远程图片还需要网络，并可能被资源服务器拒绝。</p></details>
+        <details><summary>为什么复杂模板显示不同？</summary><p>Recolio 支持富 HTML、CSS、JavaScript、填空题、MathJax、图片和音频，但依赖桌面端专用 API 或插件的模板可能无法完全一致。条件允许时，请提供不含敏感内容的小型示例包。不要在公开 Issue 中上传侵权或私人牌组。</p></details>
+        <details><summary>iCloud 同步报错或一直无法完成。</summary><p>确认设备登录了同一 Apple 账户、iCloud Drive 已开启、Recolio 获得 iCloud 权限，并有足够 iCloud 空间。首次大数据同步时保持 App 打开。同步窗口会显示已完成、等待记录和具体错误。保留本地数据前，不要反复卸载。</p></details>
+        <details><summary>为什么“上次同步”时间不停变化？</summary><p>这里应显示最近一次成功完成同步的时间，而不是自动计时。如果没有完成同步却持续变化，请录制短视频，并提供 App 版本和设备信息。</p></details>
+        <details><summary>选择大量卡片后复习变慢。</summary><p>尝试选择较小的牌组分支，确认卡顿是否随卡片总量变化。请报告选定范围、大致牌组/卡片数量、触发卡顿的操作、持续时间和平台。若简单纯文本卡片也能复现，会更容易区分调度计算和模板渲染问题。</p></details>
+        <details><summary>如何恢复 Pro？</summary><p>打开“设置”→“Recolio Pro”→“恢复购买”，并确保登录购买时使用的 Apple 账户。年度版需要订阅处于有效状态；永久版属于非消耗型购买。账单、取消和退款由 Apple 管理。</p></details>
+        <details><summary>哪些卡片计入 Free 限额？</summary><p>Free 最多支持 1,000 张非暂停 active cards；演示卡片不计入。暂停卡片或删除牌组会释放额度。较大的牌组包可以先检查内容，但学习超过额度的内容需要 Pro。</p></details>
+        <details><summary>如何取消年度订阅？</summary><p>打开 Apple“设置”→你的姓名→“订阅”→Recolio，或使用 App 内的“管理订阅”。删除 App 不会自动取消订阅。</p></details>
+        <details><summary>如何清除本地数据？</summary><p>在 iPhone/iPad 上删除 App 会移除其本地容器。在 Mac Catalyst 上，只有在明确了解影响时才删除 App 及 Recolio 容器。清除本地数据不一定会删除私人 iCloud 数据。请先导出重要牌组，再到 Apple 设置中单独管理 iCloud 数据。</p></details>
+
+        <h2>联系支持</h2>
+        <div class="contact-box"><p>发送邮件至 <a href="mailto:hikevincheng@gmail.com?subject=Recolio%20Support">hikevincheng@gmail.com</a>，或创建一个 <a href="https://github.com/kevincy/Recolio-support/issues/new">支持 Issue</a>。</p></div>
+        <h3>请提供以下信息</h3>
+        <ul>
+          <li>Recolio 版本和构建号</li>
+          <li>设备型号及 iOS、iPadOS 或 macOS 版本</li>
+          <li>问题发生在 iPhone、iPad 还是 Mac Catalyst</li>
+          <li>准确操作步骤、预期结果和实际结果</li>
+          <li>大致牌组数和卡片数</li>
+          <li>错误全文、截图或简短录屏</li>
+        </ul>
+        <div class="callout"><p><strong>保护数据：</strong>公开发布前，请移除私人学习内容、个人信息、访问令牌及受版权保护的牌组文件。只有确有必要时，才通过邮件发送敏感示例。</p></div>
+      </div>
+    </article>
+  </main>
+  <footer class="site-footer"><div class="footer-inner"><span>© 2026 Recolio</span><nav><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="support.html">Contact</a></nav></div></footer>
+</body>
+</html>

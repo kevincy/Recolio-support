@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en" data-language="en">
+<head>
+  <script src="assets/site.js?v=20261016-language"></script>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Complete user guide for Recolio.">
+  <title>User Guide — Recolio</title><link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header"><div class="nav">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">R</span>Recolio</a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="guide.html" aria-current="page"><span class="lang-en">User Guide</span><span class="lang-zh">使用手册</span></a>
+      <a href="support.html"><span class="lang-en">Support</span><span class="lang-zh">支持</span></a>
+      <a href="privacy.html"><span class="lang-en">Privacy</span><span class="lang-zh">隐私</span></a>
+      <div class="language-toggle" aria-label="Language"><button type="button" data-language-choice="en">EN</button><button type="button" data-language-choice="zh">中文</button></div>
+    </nav>
+  </div></header>
+
+  <main>
+    <header class="page-hero">
+      <p class="eyebrow"><span class="lang-en">From first import to daily review</span><span class="lang-zh">从首次导入到每日复习</span></p>
+      <h1><span class="lang-en">User Guide</span><span class="lang-zh">用户使用手册</span></h1>
+      <p><span class="lang-en">A practical guide to Recolio on iPhone, iPad, and Mac Catalyst.</span><span class="lang-zh">适用于 iPhone、iPad 和 Mac Catalyst 的 Recolio 完整实用指南。</span></p>
+    </header>
+
+    <article class="document">
+      <div class="lang-en">
+        <nav class="toc" aria-label="Table of contents">
+          <a href="#en-start">1. Quick start</a><a href="#en-structure">2. How content is organized</a>
+          <a href="#en-import">3. Import decks</a><a href="#en-study">4. Choose what to study</a>
+          <a href="#en-review">5. Review cards</a><a href="#en-fsrs">6. FSRS & presets</a>
+          <a href="#en-edit">7. Create and edit</a><a href="#en-browser">8. Browser & statistics</a>
+          <a href="#en-sync">9. iCloud sync</a><a href="#en-export">10. Export</a>
+          <a href="#en-pro">11. Free & Pro</a><a href="#en-safety">12. Safe data habits</a>
+        </nav>
+
+        <h2 id="en-start">1. Quick start</h2>
+        <ol class="steps">
+          <li>Complete or skip the interactive review demo. The demo explains question, answer, and rating actions with real cards.</li>
+          <li>On <strong>Import Your Decks</strong>, choose an .apkg file, restore from your iCloud if this is a new device, or continue and import later.</li>
+          <li>Review the detected deck, card, media, and review-history totals before writing anything to your library.</li>
+          <li>Open <strong>Today</strong>, select a study scope, and start the session.</li>
+        </ol>
+        <div class="callout"><p>The demo deck is optional practice material, does not count toward the Free card allowance, and can be deleted from Decks.</p></div>
+
+        <h2 id="en-structure">2. How content is organized</h2>
+        <h3>Folders</h3>
+        <p>A Folder is your personal organization layer. It contains decks, not individual cards. Folders can be nested up to three levels and do not modify the original deck names inside an imported package.</p>
+        <h3>Deck hierarchy</h3>
+        <p>Deck names that contain <code>::</code> are displayed as a collapsible tree. For example, <code>Biology::Genetics::Chapter 5</code> appears under Biology → Genetics → Chapter 5. Selecting a parent level includes all real decks below it.</p>
+        <h3>Cards</h3>
+        <p>Every card belongs to one deck. Moving a deck to another Folder changes only your Recolio organization; it does not change card ownership or break the imported deck hierarchy.</p>
+
+        <h2 id="en-import">3. Import decks</h2>
+        <ol>
+          <li>In <strong>Decks</strong>, select the add button and choose <strong>Import Flashcards .apkg</strong>.</li>
+          <li>Select a file from Files.</li>
+          <li>Inspect package warnings, deck count, card count, media, templates, and review history.</li>
+          <li>Choose a Folder or leave the decks ungrouped.</li>
+          <li>Choose whether to keep supported scheduling and review progress, then start the import.</li>
+        </ol>
+        <p>The progress window prioritizes card progress and also shows completed and remaining decks. Import History records the result and the first imported deck names so you can identify previous operations.</p>
+        <h3>Large packages</h3>
+        <p>Keep the app in the foreground and connect power for very large media packages. Recolio performs an incremental merge using original flashcard identifiers where available, but always keep the original .apkg until you verify the result.</p>
+
+        <h2 id="en-study">4. Choose what to study</h2>
+        <p>From <strong>Today</strong>, choose your study scope in two stages:</p>
+        <ol>
+          <li>Optionally choose a Folder. The Folder picker opens as a collapsible tree so it does not expand the Today page.</li>
+          <li>Choose any deck-tree level. A top-level or intermediate choice includes every child deck; a leaf choice includes only that real deck.</li>
+        </ol>
+        <p>Recolio remembers your last scope. The deck tree starts collapsed to its first level, and you can use search when the full deck name is easier to find by text.</p>
+        <h3>Study history</h3>
+        <p>Today groups learning history by the top-level deck name, not by Folder. Each row can show today’s studied cards, progress through the selected content, and mastery-oriented progress without truncating key values.</p>
+
+        <h2 id="en-review">5. Review cards</h2>
+        <ol>
+          <li>Read the question. Tap the main card area or select <strong>Show Answer</strong>.</li>
+          <li>Review the answer, then choose <strong>Again</strong>, <strong>Hard</strong>, <strong>Good</strong>, or <strong>Easy</strong>.</li>
+          <li>The rating is recorded and the next card appears. The interval shown above each button is a forecast calculated from the card state and current preset.</li>
+        </ol>
+        <p>Use the A− and A+ controls to change content size. Reset returns to the default percentage, and the question or answer is recentered after a scale change.</p>
+        <h3>Card actions</h3>
+        <ul>
+          <li><strong>Undo:</strong> restore the most recently rated card and its review entry.</li>
+          <li><strong>Flag/importance:</strong> mark content that deserves attention.</li>
+          <li><strong>Skip today:</strong> bury the card until the next day.</li>
+          <li><strong>Suspend:</strong> remove low-quality or unwanted content from future study queues while keeping the card and history.</li>
+        </ul>
+
+        <h2 id="en-fsrs">6. FSRS and study presets</h2>
+        <p>FSRS uses review history to estimate memory stability and difficulty. In <strong>Settings → Study Algorithm → FSRS Preferences</strong>, set desired retention from 80% to 100%. Higher retention schedules more frequent reviews.</p>
+        <p>Use <strong>Optimize</strong> periodically when enough real review history exists. Optimization creates parameters fitted to your reviews; running it repeatedly without meaningful new history is unnecessary.</p>
+        <p>Study presets also control daily new/review limits, learning and relearning steps, display order, sibling burying, leech behavior, and maximum interval. A deck can use a preset without changing the imported card content.</p>
+        <div class="callout"><p>For most users, start near 90% desired retention. Raising it toward 100% can increase workload sharply.</p></div>
+
+        <h2 id="en-edit">7. Create and edit cards</h2>
+        <p>Open <strong>Create</strong> for a new card, or select a card from deck details or the Card Browser to edit it. Choose the destination deck first; cards cannot belong directly to a Folder.</p>
+        <p>The Flashcards-style field editor supports:</p>
+        <ul>
+          <li>multiple named fields and note types;</li>
+          <li>bold, italic, underline, superscript, subscript, lists, alignment, color, and clear formatting;</li>
+          <li>cloze syntax, source/HTML editing, image attachments, and recorded audio;</li>
+          <li>tags, flags, suspension, and card preview.</li>
+        </ul>
+        <p>Toolbar buttons show hover help on pointer platforms. Preview before saving complex HTML or media-heavy changes.</p>
+
+        <h2 id="en-browser">8. Card Browser and statistics</h2>
+        <p>Open the Card Browser from the Decks page menu. Search card text and combine filters for Folder, deck, tags, state, importance, and sort order. Selecting a card opens its details and editor.</p>
+        <p>Advanced Statistics summarizes review activity, retention, due trends, card states, and deck distribution. Exam Plan appears on Today so upcoming work can be translated into a practical daily workload.</p>
+
+        <h2 id="en-sync">9. Sync with your iCloud</h2>
+        <p>Open <strong>Settings → Data & Sync → Sync Now to My iCloud</strong>. The sheet reports completed records, waiting records, progress, and errors. Sync is local-first: an action is saved on the device before it is sent to iCloud.</p>
+        <p>For a new device, you can choose iCloud restore from the onboarding bridge. Use the same Apple Account and allow the initial restore to finish before making large edits on both devices.</p>
+        <p>Do not edit the same card simultaneously on multiple offline devices. If a conflict is detected, Recolio preserves information needed to resolve it rather than silently treating every change as identical.</p>
+
+        <h2 id="en-export">10. Export your decks</h2>
+        <p>Open <strong>Settings → Export Your Decks</strong>.</p>
+        <ul>
+          <li><strong>.apkg:</strong> choose a Folder or any deck-tree level. The export includes selected deck hierarchy, supported templates, media, scheduling, and review history. Progress shows preparation, cards, media, and completion. On Mac, choose the destination folder.</li>
+          <li><strong>CSV:</strong> use for spreadsheet editing or text analysis. CSV does not preserve media, templates, scheduling, or review history.</li>
+        </ul>
+        <p>Exported .apkg filenames include date and time down to seconds to avoid accidental overwrites.</p>
+
+        <h2 id="en-pro">11. Free and Pro</h2>
+        <p>Free supports up to 1,000 non-suspended active cards. Demo cards do not count; suspending cards or deleting decks releases capacity. You can inspect a larger import before choosing to upgrade.</p>
+        <p>Recolio Pro unlocks unlimited active cards, full iCloud sync, Advanced Statistics, advanced Card Browser filters, and .apkg export. Pro is offered as an annual auto-renewable subscription and a one-time Lifetime purchase. Use Restore Purchases after reinstalling or moving to another device.</p>
+
+        <h2 id="en-safety">12. Safe data habits</h2>
+        <ul>
+          <li>Keep original .apkg files until you verify imported media and scheduling.</li>
+          <li>Export important decks before deleting a hierarchy or clearing local data.</li>
+          <li>Remember that deleting local app data does not necessarily delete iCloud data.</li>
+          <li>Import custom JavaScript templates only from sources you trust.</li>
+          <li>Never post private or copyrighted deck files in a public support issue.</li>
+        </ul>
+      </div>
+
+      <div class="lang-zh">
+        <nav class="toc" aria-label="目录">
+          <a href="#zh-start">1. 快速开始</a><a href="#zh-structure">2. 内容层级</a>
+          <a href="#zh-import">3. 导入牌组</a><a href="#zh-study">4. 选择学习范围</a>
+          <a href="#zh-review">5. 复习卡片</a><a href="#zh-fsrs">6. FSRS 与预设</a>
+          <a href="#zh-edit">7. 新建与编辑</a><a href="#zh-browser">8. 浏览器与统计</a>
+          <a href="#zh-sync">9. iCloud 同步</a><a href="#zh-export">10. 导出</a>
+          <a href="#zh-pro">11. Free 与 Pro</a><a href="#zh-safety">12. 数据安全习惯</a>
+        </nav>
+
+        <h2 id="zh-start">1. 快速开始</h2>
+        <ol class="steps">
+          <li>完成或跳过互动复习演示。演示使用真实卡片说明查看问题、显示答案和评分。</li>
+          <li>在“导入你的牌组”中选择 .apkg；若这是新设备，也可从自己的 iCloud 恢复；还可以稍后再导入。</li>
+          <li>写入资料库前，确认识别到的牌组、卡片、媒体和复习历史数量。</li>
+          <li>进入“今天”，选择学习范围并开始复习。</li>
+        </ol>
+        <div class="callout"><p>演示牌组只是可选练习材料，不计入 Free 卡片额度，可从“牌组”页面删除。</p></div>
+
+        <h2 id="zh-structure">2. 内容层级</h2>
+        <h3>我的分组</h3>
+        <p>“我的分组”是你的个人整理层，只管理牌组，不直接包含卡片。分组最多支持三级，不会修改导入包中的原始牌组名。</p>
+        <h3>牌组树</h3>
+        <p>包含 <code>::</code> 的牌组名会显示成可折叠树。例如 <code>生物::遗传::第 5 章</code> 显示为“生物 → 遗传 → 第 5 章”。选择任意父级会包含其下所有真实牌组。</p>
+        <h3>卡片</h3>
+        <p>每张卡片只属于一个牌组。把牌组移到另一个“我的分组”，只会改变 Recolio 中的个人整理方式，不会改变卡片归属或破坏导入的牌组层级。</p>
+
+        <h2 id="zh-import">3. 导入牌组</h2>
+        <ol>
+          <li>在“牌组”页面点击添加，选择“导入 Flashcards .apkg”。</li>
+          <li>从“文件”中选择牌组包。</li>
+          <li>检查警告、牌组数、卡片数、媒体、模板和复习历史。</li>
+          <li>选择“我的分组”，或保留为未分组。</li>
+          <li>选择是否保留支持的调度与复习进度，然后开始导入。</li>
+        </ol>
+        <p>进度窗口以卡片进度为主，同时展示已完成和剩余牌组。导入历史会保存结果和前几个牌组名称，便于识别以前的操作。</p>
+        <h3>大型牌组包</h3>
+        <p>导入大量媒体时，让 App 保持前台并连接电源。Recolio 会尽可能利用原始卡片标识符进行增量合并，但在确认导入结果前，请保留原始 .apkg。</p>
+
+        <h2 id="zh-study">4. 选择学习范围</h2>
+        <p>在“今天”中分两步选择：</p>
+        <ol>
+          <li>可选“我的分组”。分组通过弹窗中的折叠树选择，不会撑长“今天”页面。</li>
+          <li>选择任意牌组树层级。首级或中间层会包含全部子牌组，叶子级只包含该真实牌组。</li>
+        </ol>
+        <p>Recolio 会保留上一次选择。牌组树默认只显示首级，可逐层展开；也可以通过完整牌组名模糊搜索。</p>
+        <h3>学习历史</h3>
+        <p>“今天”的学习历史按首级牌组名归集，而不是按“我的分组”。每行可展示今日已学、选定内容的总学习情况以及掌握进度等关键指标。</p>
+
+        <h2 id="zh-review">5. 复习卡片</h2>
+        <ol>
+          <li>阅读问题，轻点主要卡片区域或“显示答案”。</li>
+          <li>查看答案后，选择“重来”“困难”“良好”或“简单”。</li>
+          <li>评分会写入复习历史，然后显示下一张卡片。按钮上方的时间是根据卡片状态和当前预设计算的预计间隔。</li>
+        </ol>
+        <p>使用 A− 和 A+ 调整内容字体，复位按钮恢复默认百分比。缩放后问题或答案会重新居中。</p>
+        <h3>卡片操作</h3>
+        <ul>
+          <li><strong>撤销：</strong>恢复最近一次评分前的卡片及复习记录。</li>
+          <li><strong>标记/重要性：</strong>标记需要额外关注的内容。</li>
+          <li><strong>今天跳过：</strong>将卡片埋藏到第二天。</li>
+          <li><strong>暂停：</strong>让低质量或暂时不需要的内容退出学习队列，同时保留卡片和历史。</li>
+        </ul>
+
+        <h2 id="zh-fsrs">6. FSRS 与学习预设</h2>
+        <p>FSRS 根据复习历史估计记忆稳定性和难度。在“设置 → 学习算法 → FSRS 偏好设置”中，可将期望留存率设为 80%–100%。留存率越高，复习越频繁。</p>
+        <p>积累足够真实复习历史后，可定期点击“优化”生成适合个人的参数。没有新增有效历史时，无需频繁重复优化。</p>
+        <p>学习预设还包括新卡/复习每日上限、学习与重学步骤、显示顺序、兄弟卡埋藏、Leech 处理和最大间隔。给牌组更换预设不会修改卡片内容。</p>
+        <div class="callout"><p>多数用户建议先从约 90% 期望留存率开始。接近 100% 时，复习量可能显著增加。</p></div>
+
+        <h2 id="zh-edit">7. 新建与编辑卡片</h2>
+        <p>从“制卡”新建卡片，或从牌组详情/卡片浏览器点开卡片进行编辑。先选择目标牌组；卡片不能直接属于“我的分组”。</p>
+        <p>Flashcards-style 字段编辑器支持：</p>
+        <ul>
+          <li>多个命名字段和笔记类型；</li>
+          <li>粗体、斜体、下划线、上下标、列表、对齐、颜色和清除格式；</li>
+          <li>填空语法、源码/HTML、图片附件和录制音频；</li>
+          <li>标签、标记、暂停和卡片预览。</li>
+        </ul>
+        <p>在鼠标平台上，工具栏按钮提供悬浮说明。保存复杂 HTML 或大量媒体修改前，建议先预览。</p>
+
+        <h2 id="zh-browser">8. 卡片浏览器与统计</h2>
+        <p>从牌组页菜单打开卡片浏览器。可搜索卡片文字，并组合“我的分组”、牌组、标签、状态、重要性和排序等筛选。点击卡片可打开详情与编辑器。</p>
+        <p>高级统计汇总复习活动、留存率、到期趋势、卡片状态和牌组分布。“考试计划”位于“今天”，可将目标转化为可执行的每日学习量。</p>
+
+        <h2 id="zh-sync">9. 同步到你的 iCloud</h2>
+        <p>进入“设置 → 数据与同步 → 立即同步到我的 iCloud”。弹窗会显示已完成记录、等待记录、进度和错误。同步采用本地优先方式：操作先保存在设备，再发送到 iCloud。</p>
+        <p>在新设备首次引导中，可以选择从 iCloud 恢复。请登录同一 Apple 账户，并让首次恢复完成后，再同时在多设备进行大量编辑。</p>
+        <p>避免在多台离线设备上同时编辑同一张卡。检测到冲突时，Recolio 会保留解决冲突所需的信息，而不是直接把所有改动视为相同。</p>
+
+        <h2 id="zh-export">10. 导出你的牌组</h2>
+        <p>进入“设置 → 导出你的牌组”。</p>
+        <ul>
+          <li><strong>.apkg：</strong>选择“我的分组”或任意牌组树层级。导出包含选定牌组层级、支持的模板、媒体、调度和复习历史。进度会展示准备、卡片、媒体和完成阶段；Mac 上可以选择保存文件夹。</li>
+          <li><strong>CSV：</strong>适合电子表格整理或文本分析，不保留媒体、模板、调度和复习历史。</li>
+        </ul>
+        <p>导出的 .apkg 文件名包含精确到秒的日期时间，减少意外覆盖。</p>
+
+        <h2 id="zh-pro">11. Free 与 Pro</h2>
+        <p>Free 最多支持 1,000 张非暂停 active cards。演示卡片不计入；暂停卡片或删除牌组会释放额度。超额牌组可以先检查内容，再决定是否升级。</p>
+        <p>Recolio Pro 解锁无限 active cards、完整 iCloud 同步、高级统计、卡片浏览器高级筛选和 .apkg 导出。Pro 提供年度自动续订和一次性永久版；重装或更换设备后使用“恢复购买”。</p>
+
+        <h2 id="zh-safety">12. 数据安全习惯</h2>
+        <ul>
+          <li>确认媒体和调度正确导入前，保留原始 .apkg。</li>
+          <li>删除牌组层级或清除本地数据前，导出重要牌组。</li>
+          <li>清除本地 App 数据不一定会删除 iCloud 数据。</li>
+          <li>只导入可信来源的自定义 JavaScript 模板。</li>
+          <li>不要在公开支持 Issue 中发布私人或受版权保护的牌组。</li>
+        </ul>
+      </div>
+    </article>
+  </main>
+  <footer class="site-footer"><div class="footer-inner"><span>© 2026 Recolio</span><nav><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="support.html">Contact</a></nav></div></footer>
+</body>
+</html>
