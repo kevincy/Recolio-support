@@ -32,7 +32,7 @@ Then open `http://localhost:8080`.
 
 ## Language routing
 
-App links specify `?lang=en` or `?lang=zh`. A supported explicit language takes
+Recolio app links always specify `?lang=en`, regardless of the app or device language. Users can manually switch to Chinese on the website. A supported explicit language takes
 priority over the saved website preference and browser language. The page sets
 its language before rendering body content, and same-site HTML links retain it.
 The language buttons update the current URL and saved preference. Invalid
