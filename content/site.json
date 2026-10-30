@@ -11,7 +11,7 @@
     ],
     "hero": [
       "Flashcards for iPhone & iPad",
-      "Your cards.\nA simpler way to study.",
+      "Find your card.\nGet back to learning.",
       "Import a deck or make your own cards. Find what you need—even words inside images—and get straight to reviewing.",
       "Your content. Your pace. No Recolio account required."
     ],
@@ -141,7 +141,29 @@
       "Open a GitHub issue",
       "Effective July 20, 2026 · Updated October 30, 2026",
       "Back to home"
-    ]
+    ],
+    "landing": {
+      "benefits": [
+        "Import .apkg decks",
+        "Search inside images",
+        "Your own folders"
+      ],
+      "steps": [
+        "Import your deck",
+        "Preview the cards",
+        "Start reviewing"
+      ],
+      "tourTitle": "Take a look inside.",
+      "tourSubtitle": "Real screens. Your kind of studying.",
+      "tourLabels": [
+        "Import",
+        "Image search",
+        "Folders",
+        "iCloud · Pro"
+      ],
+      "faqTitle": "A few things worth knowing.",
+      "ctaTitle": "Find your next card. Keep learning."
+    }
   },
   "zh-Hans": {
     "nav": [
@@ -155,7 +177,7 @@
     ],
     "hero": [
       "适用于 iPhone 和 iPad 的学习卡片",
-      "你的卡片，\n更轻松的学习方式。",
+      "找到那张卡片，\n马上开始复习。",
       "导入牌组，或制作自己的卡片。轻松找到所需内容，连图片里的文字也能搜索，找到就能开始复习。",
       "自己的内容，自己的节奏，无需注册 Recolio 账户。"
     ],
@@ -285,7 +307,29 @@
       "创建 GitHub Issue",
       "生效日期：2026 年 7 月 20 日 · 更新日期：2026 年 10 月 30 日",
       "返回首页"
-    ]
+    ],
+    "landing": {
+      "benefits": [
+        "导入 .apkg 牌组",
+        "搜索图片文字",
+        "自命名文件夹"
+      ],
+      "steps": [
+        "导入牌组",
+        "预览卡片",
+        "开始复习"
+      ],
+      "tourTitle": "打开看看，就知道怎么用。",
+      "tourSubtitle": "真实界面，看看哪种方式适合你。",
+      "tourLabels": [
+        "导入",
+        "图片文字搜索",
+        "文件夹",
+        "iCloud · Pro"
+      ],
+      "faqTitle": "开始之前，你可能想知道。",
+      "ctaTitle": "找到下一张卡片，继续学习。"
+    }
   },
   "zh-Hant": {
     "nav": [
@@ -299,7 +343,7 @@
     ],
     "hero": [
       "適用於 iPhone 與 iPad 的學習卡片",
-      "你的卡片，\n更輕鬆的學習方式。",
+      "找到那張卡片，\n馬上開始複習。",
       "匯入牌組，或製作自己的卡片。輕鬆找到所需內容，連圖片裡的文字也能搜尋，找到就能開始複習。",
       "自己的教材，自己的步調，無須註冊 Recolio 帳號。"
     ],
@@ -429,7 +473,29 @@
       "建立 GitHub Issue",
       "生效日期：2026 年 7 月 20 日 · 更新日期：2026 年 10 月 30 日",
       "返回首頁"
-    ]
+    ],
+    "landing": {
+      "benefits": [
+        "匯入 .apkg 牌組",
+        "搜尋圖片文字",
+        "自訂名稱資料夾"
+      ],
+      "steps": [
+        "匯入牌組",
+        "預覽卡片",
+        "開始複習"
+      ],
+      "tourTitle": "打開看看，就知道怎麼用。",
+      "tourSubtitle": "真實介面，看看哪種方式適合你。",
+      "tourLabels": [
+        "匯入",
+        "圖片文字搜尋",
+        "資料夾",
+        "iCloud · Pro"
+      ],
+      "faqTitle": "開始之前，你可能想知道。",
+      "ctaTitle": "找到下一張卡片，繼續學習。"
+    }
   },
   "ja": {
     "nav": [
@@ -443,7 +509,7 @@
     ],
     "hero": [
       "iPhone・iPad の学習カード",
-      "自分のカードで、\nもっと手軽に復習。",
+      "探していたカードから、\nすぐに復習へ。",
       "デッキを読み込んでも、自分で作っても。画像の中の文字まで検索できるので、探していたカードを見つけたら、すぐに復習へ。",
       "自分の教材を、自分のペースで。Recolio アカウントの登録は不要です。"
     ],
@@ -573,7 +639,29 @@
       "GitHub Issue を作成",
       "施行日：2026年7月20日 · 更新日：2026年10月30日",
       "ホームへ"
-    ]
+    ],
+    "landing": {
+      "benefits": [
+        ".apkg を読み込み",
+        "画像内の文字も検索",
+        "自分のフォルダで整理"
+      ],
+      "steps": [
+        "デッキを読み込む",
+        "カードを確認する",
+        "復習を始める"
+      ],
+      "tourTitle": "使い心地を、のぞいてみよう。",
+      "tourSubtitle": "実際の画面で、自分に合う学び方を。",
+      "tourLabels": [
+        "読み込み",
+        "画像内の文字検索",
+        "フォルダ",
+        "iCloud · Pro"
+      ],
+      "faqTitle": "始める前の、気になること。",
+      "ctaTitle": "次のカードを見つけて、学びを続けよう。"
+    }
   },
   "ko": {
     "nav": [
@@ -587,7 +675,7 @@
     ],
     "hero": [
       "iPhone과 iPad를 위한 학습 카드",
-      "내 카드로,\n더 간편하게 복습하세요.",
+      "찾던 카드를 만나면,\n바로 복습하세요.",
       "덱을 가져오거나 직접 카드를 만드세요. 이미지 속 글자까지 검색하고, 찾은 카드를 바로 복습할 수 있어요.",
       "내 학습 자료를 내 속도로. Recolio 계정 가입은 필요 없어요."
     ],
@@ -717,7 +805,29 @@
       "GitHub Issue 만들기",
       "시행일: 2026년 7월 20일 · 수정일: 2026년 10월 30일",
       "홈으로"
-    ]
+    ],
+    "landing": {
+      "benefits": [
+        ".apkg 덱 가져오기",
+        "이미지 속 글자 검색",
+        "내 이름으로 폴더 정리"
+      ],
+      "steps": [
+        "덱 가져오기",
+        "카드 미리 보기",
+        "복습 시작하기"
+      ],
+      "tourTitle": "어떻게 쓰는지 살펴보세요.",
+      "tourSubtitle": "실제 화면에서 나에게 맞는 학습 방식을 찾아보세요.",
+      "tourLabels": [
+        "가져오기",
+        "이미지 글자 검색",
+        "폴더",
+        "iCloud · Pro"
+      ],
+      "faqTitle": "시작하기 전에 궁금한 점.",
+      "ctaTitle": "다음 카드를 찾고, 학습을 이어 가세요."
+    }
   },
   "es": {
     "nav": [
@@ -731,7 +841,7 @@
     ],
     "hero": [
       "Tarjetas de estudio para iPhone y iPad",
-      "Tus tarjetas.\nEstudiar, más sencillo.",
+      "Encuentra tu tarjeta.\nVuelve a repasar.",
       "Importa un mazo o crea tus tarjetas. Encuentra lo que buscas, incluso palabras en imágenes, y empieza a repasar al momento.",
       "Tu material, a tu ritmo. Sin crear una cuenta de Recolio."
     ],
@@ -861,6 +971,28 @@
       "Crear incidencia en GitHub",
       "En vigor: 20 de julio de 2026 · Actualizado: 30 de octubre de 2026",
       "Volver al inicio"
-    ]
+    ],
+    "landing": {
+      "benefits": [
+        "Importa mazos .apkg",
+        "Busca texto en imágenes",
+        "Carpetas a tu manera"
+      ],
+      "steps": [
+        "Importa tu mazo",
+        "Explora las tarjetas",
+        "Empieza a repasar"
+      ],
+      "tourTitle": "Mira cómo es por dentro.",
+      "tourSubtitle": "Pantallas reales para descubrir tu forma de estudiar.",
+      "tourLabels": [
+        "Importar",
+        "Texto en imágenes",
+        "Carpetas",
+        "iCloud · Pro"
+      ],
+      "faqTitle": "Lo que quizá quieras saber.",
+      "ctaTitle": "Encuentra tu próxima tarjeta. Sigue aprendiendo."
+    }
   }
 }

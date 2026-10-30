@@ -30,6 +30,7 @@ for name,p in pages.items():
 site=json.loads((ROOT/'content/site.json').read_text());assert set(site)==LANGUAGES
 for lang,row in site.items():
  assert [len(row[x]) for x in ['nav','hero','features','extra','guide','faq','labels']]==[7,4,4,4,10,6,15],lang
+ assert len(row['landing']['benefits'])==3 and len(row['landing']['steps'])==3 and len(row['landing']['tourLabels'])==4,lang
  assert 'iCloud' in row['features'][3][2] and 'Pro' in row['features'][3][2]
  assert '.apkg' in row['features'][0][2]
 for name,count in [('privacy',11),('terms',12)]:

@@ -17,7 +17,7 @@ function page({ query = '', stored, browser = 'en-US', browsers, blockedStorage 
   const window = { location: new URL('https://kevincy.github.io/Recolio-support/terms.html' + query),
     history: { replaceState(_, __, href) { window.location = new URL(href); } } };
   const document = { documentElement: root, readyState: 'loading',
-    querySelectorAll() { return links; }, getElementById() { return select; },
+    querySelectorAll(selector) { return selector === 'a[href]' ? links : []; }, getElementById() { return select; },
     querySelector() { return null; },
     addEventListener(name, fn) { events[name] = fn; } };
   const localStorage = {

@@ -47,6 +47,17 @@
   chooseLanguage(supportedLanguage(requested) || supportedLanguage(stored) || browser || 'en');
   function bindControls() {
     chooseLanguage(root.dataset.language);
+    document.querySelectorAll('[data-gallery]').forEach(gallery => {
+      const buttons = gallery.querySelectorAll('[data-gallery-src]');
+      buttons.forEach(button => button.addEventListener('click', () => {
+        const image = gallery.querySelector('img');
+        image.src = button.dataset.gallerySrc;
+        image.dataset.src = button.dataset.gallerySrc;
+        image.alt = button.dataset.galleryAlt;
+        gallery.querySelector('[data-gallery-caption]').textContent = button.dataset.galleryCopy;
+        buttons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+      }));
+    });
     const select = document.getElementById('language');
     if (!select) return;
     select.addEventListener('change', () => {

@@ -19,7 +19,15 @@ def screenshot(lang,role,alt,eager=False):
 def home(lang,d):
  n,h,f,x,g,q,L=[d[k] for k in ['nav','hero','features','extra','guide','faq','labels']]
  store='<a class="button" href="https://apps.apple.com/app/id6823991638">'+E(n[5])+' <span aria-hidden="true">↗</span></a>'
- s=f'''<section class="hero"><div class="hero-grid"><div><p class="eyebrow">{E(h[0])}</p><h1>{E(h[1]).replace(chr(10),'<br>')}</h1><p class="hero-copy">{E(h[2])}</p><div class="hero-actions">{store}<a class="text-link" href="#features-{lang}">{E(n[6])} ↓</a></div><p class="quiet">{E(h[3])}</p></div><figure class="hero-visual">{screenshot(lang,'01-study',h[0],True)}</figure></div></section>'''
+ s=f'''<section class="hero"><div class="hero-grid"><div><p class="eyebrow">{E(h[0])}</p><h1>{E(h[1]).replace(chr(10),'<br>')}</h1><p class="hero-copy">{E(h[2])}</p><div class="hero-actions">{store}<a class="text-link" href="#tour-{lang}">{E(n[6])} ↓</a></div><p class="quiet">{E(h[3])}</p></div><figure class="hero-visual">{screenshot(lang,'02-search',f[1][3],True)}</figure></div></section>'''
+ t=d['landing']
+ s+='<div class="benefits section">'+''.join('<span><b aria-hidden="true">✓</b> '+E(v)+'</span>' for v in t['benefits'])+'</div>'
+ s+='<section class="section start-steps"><p class="eyebrow">.apkg → Recolio</p><div class="step-grid">'+''.join(f'<a href="guide.html#{lang}-{anchor}"><span class="step-number">0{i+1}</span><h2>{E(title)}</h2><span aria-hidden="true">→</span></a>' for i,(title,anchor) in enumerate(zip(t['steps'],['start','preview','review'])))+'</div></section>'
+ roles=['03-import','02-search','ipad-05-organize','ipad-01-study']
+ s+=f'<section class="section tour" id="tour-{lang}" data-gallery><h2>{E(t["tourTitle"])}</h2><p>{E(t["tourSubtitle"])}</p><div class="tour-controls" role="group" aria-label="{E(t["tourTitle"])}">'
+ for i,label in enumerate(t['tourLabels']):
+  s+=f'<button type="button" data-gallery-src="assets/screenshots/{lang}/{roles[i]}.webp" data-gallery-alt="{E(f[i][3])}" data-gallery-copy="{E(f[i][2])}" aria-pressed="{str(i==1).lower()}">{E(label)}</button>'
+ s+=f'</div><div class="tour-stage"><div><p class="eyebrow">Recolio / iPhone + iPad</p><p data-gallery-caption aria-live="polite">{E(f[1][2])}</p><a class="text-link" href="guide.html">{E(L[5])} →</a></div><figure>{screenshot(lang,"02-search",f[1][3])}</figure></div></section>'
  for i,role in enumerate(['03-import','02-search','ipad-05-organize']):
   a=f[i]
   s+=f'<section class="feature section" id="'+('features-'+lang if i==0 else ['','search-','folders-'][i]+lang)+f'"><div class="feature-copy"><p class="eyebrow">0{i+1} / {E(a[0])}</p><h2>{E(a[1])}</h2><p>{E(a[2])}</p><a class="text-link" href="guide.html#{lang}-'+['start','search','structure'][i]+f'">{E(L[5])} →</a></div><figure class="feature-visual {"tablet" if i==2 else ""}">{screenshot(lang,role,a[3])}</figure></section>'
@@ -27,6 +35,8 @@ def home(lang,d):
  s+=f'<section class="sync section" id="sync-{lang}"><div class="sync-intro"><p class="eyebrow">04 / {E(a[0])}</p><h2>{E(a[1])}</h2><p>{E(a[2])}</p><a class="text-link" href="guide.html#{lang}-sync">{E(L[5])} →</a></div><div class="sync-gallery"><figure>{screenshot(lang,"01-study",a[3])}<figcaption>iPhone</figcaption></figure><div class="sync-symbol" aria-hidden="true">↔<small>iCloud</small></div><figure>{screenshot(lang,"ipad-01-study",a[3])}<figcaption>iPad</figcaption></figure></div><p class="sync-badge">{E(L[10])}</p></section>'
  s+='<section class="section extras">'+''.join(f'<article><h2>{E(x[i])}</h2><p>{E(x[i+1])}</p></article>' for i in [0,2])+'</section>'
  s+=f'<section class="section resources"><p class="eyebrow">{E(L[0])}</p><h2>{E(L[1])}</h2><div class="cards">'+''.join(f'<article class="card"><h3>{E(n[i])}</h3><p>{E(L[i+2])}</p><a href="{p}.html">{E(L[i+5])} →</a></article>' for i,p in enumerate(['guide','support','privacy']))+f'</div><p class="quiet">{E(L[9])}</p></section>'
+ s+=f'<section class="section home-faq"><h2>{E(t["faqTitle"])}</h2>'+''.join(f'<details><summary>{E(title)}</summary><p>{E(answer)}</p></details>' for title,answer in [q[0],q[1],q[3],q[4]])+'</section>'
+ s+=f'<section class="section final-cta"><h2>{E(t["ctaTitle"])}</h2><p>{E(h[3])}</p>{store}</section>'
  return s
 
 def document(page,lang,d):
@@ -62,7 +72,7 @@ def build():
   description=D['en']['hero'][2] if page=='index' else D['en']['labels'][2 if page=='guide' else 3 if page=='support' else 4]
   alternates=''.join(f'<link rel="alternate" hreflang="{lang}" href="https://kevincy.github.io/Recolio-support/{page}.html?lang={lang}">' for lang in LANGS)
   output=f'''<!doctype html>
-<html lang="en" data-language="en"><head><meta charset="utf-8"><script src="assets/site.js?v=20261030-six"></script><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="{E(description)}">{alternates}<meta name="theme-color" content="#faf8f4"><title>{E(title)}</title><link rel="icon" href="assets/app-icon.png"><link rel="stylesheet" href="assets/styles.css?v=20261030-six"></head><body>{chrome(page)}<main>{body}</main>{footer()}</body></html>\n'''
+<html lang="en" data-language="en"><head><meta charset="utf-8"><script src="assets/site.js?v=20261030-tour"></script><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="{E(description)}">{alternates}<meta name="theme-color" content="#faf8f4"><title>{E(title)}</title><link rel="icon" href="assets/app-icon.png"><link rel="stylesheet" href="assets/styles.css?v=20261030-tour"></head><body>{chrome(page)}<main>{body}</main>{footer()}</body></html>\n'''
   (ROOT/(page+'.html')).write_text(output)
  print('Built 5 pages × 6 complete languages')
 if __name__=='__main__':build()

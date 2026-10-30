@@ -2,7 +2,7 @@
 
 GitHub Pages: **https://kevincy.github.io/Recolio-support/**
 
-A buildless-at-runtime product homepage with a user guide, troubleshooting, privacy policy and terms. Uses existing genuine app screenshots with original sample content; no fabricated app UI, analytics, third-party fonts or tracking scripts.
+A buildless-at-runtime product homepage with an interactive real-screenshot tour, three-step onboarding story, homepage FAQ and download call to action; with a user guide, troubleshooting, privacy policy and terms. Uses existing genuine app screenshots with original sample content; no fabricated app UI, analytics, third-party fonts or tracking scripts.
 
 ## Six complete languages
 

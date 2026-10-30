@@ -29,6 +29,20 @@ const assert=require('node:assert/strict');
       await images.nth(i).evaluate(img=>img.decode());
       assert.ok(await images.nth(i).evaluate(img=>img.naturalWidth>0));
      }
+     const tour=page.locator(`main > [data-locale="${lang}"] [data-gallery]`);
+     const controls=tour.locator('button');
+     for(let i=0;i<4;i++){
+      await controls.nth(i).click();
+      await tour.locator('img').evaluate(img=>img.decode());
+      assert.equal(await controls.nth(i).getAttribute('aria-pressed'),'true');
+      assert.equal(await tour.locator('button[aria-pressed="true"]').count(),1);
+      assert.equal(await tour.locator('img').getAttribute('src'),await controls.nth(i).getAttribute('data-gallery-src'));
+      assert.equal(await tour.locator('[data-gallery-caption]').textContent(),await controls.nth(i).getAttribute('data-gallery-copy'));
+      assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false);
+     }
+     await controls.first().focus();await page.keyboard.press('Space');
+     assert.equal(await controls.first().getAttribute('aria-pressed'),'true');
+     if(lang==='en'&&width===1280){await tour.scrollIntoViewIfNeeded();await page.screenshot({path:out+'/en-1280-tour.png'});}
      await page.evaluate(()=>scrollTo(0,0));
      if((width===1280&&['en','ja'].includes(lang))||(width===390&&['es','zh-Hant'].includes(lang)))await page.screenshot({path:`${out}/${lang}-${width}-home.png`});
      if(width===390&&lang==='ko'){
