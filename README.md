@@ -1,43 +1,44 @@
-# Recolio Support
+# Recolio — product and support site
 
-Public support site for Recolio, including:
+GitHub Pages: **https://kevincy.github.io/Recolio-support/**
 
-- Product and contact page
-- Privacy Policy
-- Support and troubleshooting
-- User Guide
-- Terms of Use
+A buildless-at-runtime product homepage with a user guide, troubleshooting, privacy policy and terms. Uses existing genuine app screenshots with original sample content; no fabricated app UI, analytics, third-party fonts or tracking scripts.
 
-The site is plain static HTML/CSS/JavaScript and is ready for GitHub Pages.
+## Six complete languages
 
-## Public URLs
+English (`en`), Simplified Chinese (`zh-Hans`), Japanese (`ja`), Korean (`ko`), Spanish (`es`) and Traditional Chinese (`zh-Hant`). The old `?lang=zh` and stored `zh` preference remain compatible with Simplified Chinese. Traditional Chinese is written for Taiwan with generally understandable wording for Hong Kong.
 
-After GitHub Pages is enabled for the repository root:
+Explicit supported URL language wins over the saved website preference, then the first supported browser language, then English. `?lang=en` from the app continues to open English regardless of device language. Selection changes the current URL, page title, description, screenshots and same-site links; it persists without changing account or app settings. External links, unrelated sites, other query parameters and fragments are preserved.
 
-- Home: `https://kevincy.github.io/Recolio-support/`
-- Privacy: `https://kevincy.github.io/Recolio-support/privacy.html`
-- Support: `https://kevincy.github.io/Recolio-support/support.html`
-- User Guide: `https://kevincy.github.io/Recolio-support/guide.html`
-- Terms: `https://kevincy.github.io/Recolio-support/terms.html`
+Examples:
 
-## Local preview
+- `/index.html?lang=ja`
+- `/guide.html?lang=ko`
+- `/support.html?lang=es`
+- `/privacy.html?lang=zh-Hant`
+- `/terms.html?lang=en`
 
-Run any static HTTP server from this directory, for example:
+## Edit and validate
+
+- `content/site.json`: canonical six-language product copy, navigation, guide and FAQ.
+- `content/privacy.json`, `content/terms.json`: all six policy bodies. English/Chinese originals retained except the documented allowance/current-Pro clarification, folder terminology and consolidated contact block.
+- `scripts/build.py`: renders all five HTML routes with static content and English fallback. No client-side translation service or runtime fetch.
+- `assets/screenshots/manifest.json`: source paths/hashes and web-image hashes for 30 localized screenshot derivatives. UI content is unchanged; only image scaling/WebP encoding is applied.
+- `assets/site.js`: shared language routing, image hydration and link preservation.
 
 ```sh
-python3 -m http.server 8080
+python3 scripts/build.py
+python3 scripts/check_site.py
+node tests/language.test.cjs
+python3 -m http.server 8096 --bind 127.0.0.1
 ```
 
-Then open `http://localhost:8080`.
+Optional real-browser regression: `node tests/browser.cjs` uses an isolated headless browser and requires Playwright plus Chrome. Set `PLAYWRIGHT_MODULE` and `BROWSER_EXECUTABLE` for another local installation. Screenshots/results go to `/tmp/recolio-support-review-20261030/`, not the public site. The test expects the local preview server on port 8096.
 
-## Language routing
+Pushes to `main` run build-freshness, coverage/link/image and routing checks before GitHub Pages deploys. The existing `main` deployment workflow remains the owner; no alternative host or framework is introduced.
 
-Recolio app links always specify `?lang=en`, regardless of the app or device language. Users can manually switch to Chinese on the website. A supported explicit language takes
-priority over the saved website preference and browser language. The page sets
-its language before rendering body content, and same-site HTML links retain it.
-The language buttons update the current URL and saved preference. Invalid
-parameters fall back to a valid saved preference, then browser language, then
-English. External links and document fragments are not rewritten.
+## Product accuracy
 
-Run the dependency-free regression checks with `node tests/language.test.cjs`.
+iCloud sync is optional, off by default, requires Pro, the same Apple Account, iCloud permissions, storage and network access. It is not an independent backup. Preview does not affect study history; ratings do. Search finds recognized image text, not similar images or objects. Import compatibility varies. Free import exceptions and the 1,000-card study limit are described separately in the guide and terms.
 
+Translations received AI editorial review; no human native-language approval or legal clearance is claimed. See `DELIVERY_20261030.md` for checks, sources and deployment evidence.

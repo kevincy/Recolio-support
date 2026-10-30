@@ -1,0 +1,242 @@
+[
+  {
+    "language": "en",
+    "role": "01-study",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/iphone/en/01-study.png",
+    "sourceSHA256": "360b05e8f89d80e2d9f88da69f17e10625d978f529c33e803fd88e43e3095ae0",
+    "file": "assets/screenshots/en/01-study.webp",
+    "sha256": "8ce08685717893e113854328fe2e3070b6b259c4a6d9779d2da1598a412bea7f"
+  },
+  {
+    "language": "en",
+    "role": "02-search",
+    "source": "../Remin-NA/screenshots/recolio-custom-product-pages-20261029/reviewed-20261030/screenshots/recolio-launch-20261021/iphone/en/search.png",
+    "sourceSHA256": "c066f7f473ae4e106ff608c9257536df033e3385e0cf1bea70628f8cfa49afe6",
+    "file": "assets/screenshots/en/02-search.webp",
+    "sha256": "dd02384bdd5d325a476c87d6bafc7475674c5de993d03cf19d111c3049a5e5a0"
+  },
+  {
+    "language": "en",
+    "role": "03-import",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/iphone/en/03-import.png",
+    "sourceSHA256": "7f4d39f07d69547127454009b2281bca502134030cf6d5da23e70b77786a4570",
+    "file": "assets/screenshots/en/03-import.webp",
+    "sha256": "4670daeaa319924abc3b0b94b8caa7e5865e2f896d1ef292b58d4c5043535f78"
+  },
+  {
+    "language": "en",
+    "role": "ipad-05-organize",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/ipad/en/05-organize.png",
+    "sourceSHA256": "05d5d62384aab36ac754fa992d4a93d2f8fd9403ebbbdc7a9a07f4f2ad6af9dc",
+    "file": "assets/screenshots/en/ipad-05-organize.webp",
+    "sha256": "db2e4ee6576e2fa713f423c63f8da6a6db30f09f7aa7fd1154b9531119a5ba29"
+  },
+  {
+    "language": "en",
+    "role": "ipad-01-study",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/ipad/en/01-study.png",
+    "sourceSHA256": "1c8b60a8480409b21e4f35f33f10e13736b29cdbb3ac3ff6ec8db65ccc5fab2a",
+    "file": "assets/screenshots/en/ipad-01-study.webp",
+    "sha256": "0e720091ebc4f24f62189f31450029168e59938f50bc017e382a9c7c650d57d9"
+  },
+  {
+    "language": "zh-Hans",
+    "role": "01-study",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/iphone/zh-Hans/01-study.png",
+    "sourceSHA256": "182448ea004f6f924589fc04c7d5d0401620572313581a6a0e2a43701f611a44",
+    "file": "assets/screenshots/zh-Hans/01-study.webp",
+    "sha256": "4098a341ef7b605cec8a0dc09fd743027e68be5bdf7cb9bf402751cb574c669c"
+  },
+  {
+    "language": "zh-Hans",
+    "role": "02-search",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/iphone/zh-Hans/02-search.png",
+    "sourceSHA256": "efbcb942d6438ee428f87a9d6c21c0194f6d45c9c16a23af99eb8bb307e18600",
+    "file": "assets/screenshots/zh-Hans/02-search.webp",
+    "sha256": "cdca8f80412743294238f03e4a26b7037573156c8c3cd7a4b7930d454fa82ee4"
+  },
+  {
+    "language": "zh-Hans",
+    "role": "03-import",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/iphone/zh-Hans/03-import.png",
+    "sourceSHA256": "90dc12d596309fe6b67c92a3fd69c86e81e6a6529ed749e325c55674829dc835",
+    "file": "assets/screenshots/zh-Hans/03-import.webp",
+    "sha256": "a998494a92bd39f2cf14a45dd49a874c85ff08963d79b95afcf78ecf74ac78d2"
+  },
+  {
+    "language": "zh-Hans",
+    "role": "ipad-05-organize",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/ipad/zh-Hans/05-organize.png",
+    "sourceSHA256": "831421a390a7641bf1d2eee5e768fc082c839fd8dc6ef448c13b21d0e3277fc0",
+    "file": "assets/screenshots/zh-Hans/ipad-05-organize.webp",
+    "sha256": "7a9a20786ec452b1492e53dcda50d42fbb66c97776e42c5b9e04587246da4c9d"
+  },
+  {
+    "language": "zh-Hans",
+    "role": "ipad-01-study",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/ipad/zh-Hans/01-study.png",
+    "sourceSHA256": "9286840c942940561947c241e2ed29a7d3877ddfc4183c0d0934720451038fc7",
+    "file": "assets/screenshots/zh-Hans/ipad-01-study.webp",
+    "sha256": "367241eea86ab4cb7683a61b2962fc16ad8a0daf23648a91f6d80dac257bb7d7"
+  },
+  {
+    "language": "ja",
+    "role": "01-study",
+    "source": "../Remin-NA/screenshots/recolio-custom-product-pages-20261029/reviewed-20261030/screenshots/recolio-launch-20261021/iphone/ja/study.png",
+    "sourceSHA256": "efe7c44dc6b693e6b0d7f4c87a915e169d61e24e86302e22e2078dc6140eabbe",
+    "file": "assets/screenshots/ja/01-study.webp",
+    "sha256": "19df18b7bcd00b24eb1f3eaa4dece1a074bc06812678b150ae135f227f9cdcd5"
+  },
+  {
+    "language": "ja",
+    "role": "02-search",
+    "source": "../Remin-NA/screenshots/recolio-custom-product-pages-20261029/reviewed-20261030/screenshots/recolio-launch-20261021/iphone/ja/search.png",
+    "sourceSHA256": "cf793c08276de847e43f3d76c67c6f1e9fbe1dbd19096faca114c1d6eb956df1",
+    "file": "assets/screenshots/ja/02-search.webp",
+    "sha256": "2d819d3ecd3b6d9694fd3cfde1317271ba0696ed4be25c672c646638434de137"
+  },
+  {
+    "language": "ja",
+    "role": "03-import",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/iphone/ja/03-import.png",
+    "sourceSHA256": "aeda85bbd96ae5f2150908bbc4dc8c444c700a388ade40d7dbf37ba3bf9ab6f7",
+    "file": "assets/screenshots/ja/03-import.webp",
+    "sha256": "caf8f7f807d0df410255cc5e07c7bf2b72c426461fced6bee675693b15fa2440"
+  },
+  {
+    "language": "ja",
+    "role": "ipad-05-organize",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/ipad/ja/05-organize.png",
+    "sourceSHA256": "a912a7b7bd0b97b141036d4796043081523dcbd11ede4c2e10bb9b768285840c",
+    "file": "assets/screenshots/ja/ipad-05-organize.webp",
+    "sha256": "93e5983d15fd716355f8b1c412acf70e45d4f1f75687e2d0f611a3b4b2ba5031"
+  },
+  {
+    "language": "ja",
+    "role": "ipad-01-study",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/ipad/ja/01-study.png",
+    "sourceSHA256": "13d74eb0afbe125e97f68b71e64a3c144250587f425409dbd4da1acd341eee9a",
+    "file": "assets/screenshots/ja/ipad-01-study.webp",
+    "sha256": "0fa3e346a1f8ea3e8c463b51007731dcf231296b8fe6bb4bba60194748a7748f"
+  },
+  {
+    "language": "ko",
+    "role": "01-study",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/iphone/ko/01-study.png",
+    "sourceSHA256": "335a0d9faabebdae4145f358deac2533301ecfa5a0ec02393c921b2e35568891",
+    "file": "assets/screenshots/ko/01-study.webp",
+    "sha256": "1a96a90d10921ece86b438a93581baf1201f1b640ac6e58ee01fb1d3b5270a17"
+  },
+  {
+    "language": "ko",
+    "role": "02-search",
+    "source": "../Remin-NA/screenshots/recolio-custom-product-pages-20261029/reviewed-20261030/screenshots/recolio-launch-20261021/iphone/ko/search.png",
+    "sourceSHA256": "48e4fc13cc67da68c52cc6346d3070d49a947067e9db55e039ba9ee891762b91",
+    "file": "assets/screenshots/ko/02-search.webp",
+    "sha256": "d05fcca2fabc4ca5ab44b53d97e80667dd9adcf7168e3ab0728433e5a760e18e"
+  },
+  {
+    "language": "ko",
+    "role": "03-import",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/iphone/ko/03-import.png",
+    "sourceSHA256": "979bfd9af71831f89499160c88bed94960c2f017026fd3c8d4903f34129566da",
+    "file": "assets/screenshots/ko/03-import.webp",
+    "sha256": "6f817a292541267e0f341ffcde5889b4e1e933148b4103b0b4f9d8dd0e6251fa"
+  },
+  {
+    "language": "ko",
+    "role": "ipad-05-organize",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/ipad/ko/05-organize.png",
+    "sourceSHA256": "ca24a50deec05d947384c28b3c15c65fb47336709ab5c35fca08d1860ed38e46",
+    "file": "assets/screenshots/ko/ipad-05-organize.webp",
+    "sha256": "7e3dcd0aa997e095392e49838c452a1f4e13c62dfdbcb77cf898e29c53b74ba3"
+  },
+  {
+    "language": "ko",
+    "role": "ipad-01-study",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/ipad/ko/01-study.png",
+    "sourceSHA256": "750dbdbc5e078a4ee3b32508a9828ee4d495ea8b4be8049d67a58d8cf3d2d112",
+    "file": "assets/screenshots/ko/ipad-01-study.webp",
+    "sha256": "76629879e4c222e3f74ae912e03db28154f648f136b84eb1754abef8c151cfdc"
+  },
+  {
+    "language": "es",
+    "role": "01-study",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/iphone/es/01-study.png",
+    "sourceSHA256": "b4b09559dcb278f440bdfc9a2af9c4c3d1edc9be6cb71bff6675044df0d6a69e",
+    "file": "assets/screenshots/es/01-study.webp",
+    "sha256": "75abfbe657d12071ae29af860e24a51a7002aa1d5dca8e9be484d06c21c3a901"
+  },
+  {
+    "language": "es",
+    "role": "02-search",
+    "source": "../Remin-NA/screenshots/recolio-custom-product-pages-20261029/reviewed-20261030/screenshots/recolio-launch-20261021/iphone/es/search.png",
+    "sourceSHA256": "d417af39275c6c3c71b9d4aa2c20aa046a34aa029905580ddf20f8962e9ae4dc",
+    "file": "assets/screenshots/es/02-search.webp",
+    "sha256": "8664928e71d43d050d4b2e4f26621e517fc1ee5aedd1c630ef74e20a932ef6a0"
+  },
+  {
+    "language": "es",
+    "role": "03-import",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/iphone/es/03-import.png",
+    "sourceSHA256": "a6499316bd7661be6d4ba306a8e8f1a124ad610a2414740503f9f3fa34532e81",
+    "file": "assets/screenshots/es/03-import.webp",
+    "sha256": "e353a8cd2f58d5854c4572ca096eabec670dc68885ca85c862722527edb0a0f3"
+  },
+  {
+    "language": "es",
+    "role": "ipad-05-organize",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/ipad/es/05-organize.png",
+    "sourceSHA256": "549d3950e2de41dabe438db2139874a5ceb16d4ee0636c437281a580892b4ea7",
+    "file": "assets/screenshots/es/ipad-05-organize.webp",
+    "sha256": "259c9ce20c33dbaf75d2f4e42e7b2169165cd189849f28bc4ade8c2fb241417a"
+  },
+  {
+    "language": "es",
+    "role": "ipad-01-study",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/ipad/es/01-study.png",
+    "sourceSHA256": "337a42b3462cafe83120367e642eb84ff2a49f0c736debc844b74ebd6693f573",
+    "file": "assets/screenshots/es/ipad-01-study.webp",
+    "sha256": "849d639c2d14239735139e7446f04fa455998b740a10e46d15cf761c8c50e272"
+  },
+  {
+    "language": "zh-Hant",
+    "role": "01-study",
+    "source": "../Remin-NA/screenshots/recolio-custom-product-pages-20261029/reviewed-20261030/screenshots/recolio-launch-20261021/iphone/zh-Hant/study.png",
+    "sourceSHA256": "248ef773d533590bdf7f67bf0231662e162ecf5feb7953bc0a388437fd204c2d",
+    "file": "assets/screenshots/zh-Hant/01-study.webp",
+    "sha256": "b863cd873261c44e4e0d3ba697366cd90e17dbf5dcdeb5ef53bbfd73fcc347fb"
+  },
+  {
+    "language": "zh-Hant",
+    "role": "02-search",
+    "source": "../Remin-NA/screenshots/recolio-custom-product-pages-20261029/reviewed-20261030/screenshots/recolio-launch-20261021/iphone/zh-Hant/search.png",
+    "sourceSHA256": "7facb18fd79cb5a706b3594bd39f762acc8982a56676aafc7d0eecf043e1705a",
+    "file": "assets/screenshots/zh-Hant/02-search.webp",
+    "sha256": "2d0064a1f823ecd90d5adbe0835b47372d61657eda9d0092ce09eaf16919848f"
+  },
+  {
+    "language": "zh-Hant",
+    "role": "03-import",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/iphone/zh-Hant/03-import.png",
+    "sourceSHA256": "226c093008d36761ac293335f4ebb0e69f7cd63bf1031c249e503d884f97a4ca",
+    "file": "assets/screenshots/zh-Hant/03-import.webp",
+    "sha256": "1a21580fa04d094c294dfde9abb719ee67e0fd52bdc6e5eff928e73a3bcdac02"
+  },
+  {
+    "language": "zh-Hant",
+    "role": "ipad-05-organize",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/ipad/zh-Hant/05-organize.png",
+    "sourceSHA256": "49e388eed4b9ee405b6323b123c448f1fd6b88aa10b3cc77ce0c06269a4f0068",
+    "file": "assets/screenshots/zh-Hant/ipad-05-organize.webp",
+    "sha256": "a9729eb9eaef876a1b09a4768d7381d1380076978bf68cf85ff382b87ba5f67e"
+  },
+  {
+    "language": "zh-Hant",
+    "role": "ipad-01-study",
+    "source": "../Remin-NA/screenshots/recolio-launch-20261021/published/ipad/zh-Hant/01-study.png",
+    "sourceSHA256": "2d4273883a8d08c06e043db9da1e4d21a637db279e34a708728509dfef1bb762",
+    "file": "assets/screenshots/zh-Hant/ipad-01-study.webp",
+    "sha256": "c30eade620403d0ee90054124cbfaac92b2c6db5f8c9d3e0e821011f1555dbc4"
+  }
+]

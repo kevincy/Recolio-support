@@ -23,6 +23,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Validate six-language site
+        run: |
+          python3 scripts/build.py
+          git diff --exit-code -- "*.html"
+          python3 scripts/check_site.py
+          node tests/language.test.cjs
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site

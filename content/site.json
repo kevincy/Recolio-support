@@ -1,0 +1,866 @@
+{
+  "en": {
+    "nav": [
+      "User guide",
+      "Support",
+      "Privacy",
+      "Terms",
+      "Language",
+      "Get Recolio",
+      "Explore the features"
+    ],
+    "hero": [
+      "Flashcards for iPhone & iPad",
+      "Your cards.\nA simpler way to study.",
+      "Import a deck or make your own cards. Find what you need—even words inside images—and get straight to reviewing.",
+      "Your content. Your pace. No Recolio account required."
+    ],
+    "features": [
+      [
+        "A familiar place to start",
+        "Bring a deck. Preview it. Start learning.",
+        "Choose an .apkg file, check the import, and save it to a folder. Preview the rendered cards without changing your study history. Start a review when you’re ready.",
+        "Import and card Preview in Recolio"
+      ],
+      [
+        "Find the card you remember",
+        "Remember a word in a diagram? Search it.",
+        "Search card text and words recognized in images on either side. Image matches show a thumbnail and highlighted words. Search from Today to open the card and review it right away.",
+        "A search result matching text inside a card image"
+      ],
+      [
+        "Organization that makes sense",
+        "Your subjects. Your folders.",
+        "Give folders names that work for you: a semester, an exam, a language. Keep decks together, browse their hierarchy, and choose what to study without renaming the original decks.",
+        "Decks organized into named folders"
+      ],
+      [
+        "Pick up on your other device",
+        "iPhone on the go. iPad at your desk.",
+        "Turn on iCloud sync to keep cards and study progress together across devices using the same Apple Account. Sync is off by default and requires Recolio Pro, iCloud access, and available storage.",
+        "The same study experience on iPhone and iPad"
+      ]
+    ],
+    "extra": [
+      "Make it your own",
+      "Create text, image and audio cards. Use cloze to hide words or Image Occlusion to cover parts of a diagram. Preview before studying; open the editor when you want to make changes.",
+      "A daily rhythm for your memory",
+      "Spaced repetition schedules reviews using your answers. Again means you couldn’t recall it; Hard means you recalled it with effort. Good and Easy distinguish comfortable from effortless recall."
+    ],
+    "guide": [
+      [
+        "start",
+        "Start with a deck",
+        "Tap Import on Today or Decks. The import guide explains the .apkg format; choose your file from Files. Review the summary, choose or create a folder, and import. Keep the source file until you check the result."
+      ],
+      [
+        "structure",
+        "Folders, decks and cards",
+        "Folders hold decks; cards belong to decks. Name folders for your subjects, projects or exams. Imported deck hierarchies stay intact. Choose a folder or deck branch from Today to set your study scope."
+      ],
+      [
+        "preview",
+        "Preview before a review",
+        "Open a card from Decks to preview its rendered question and answer. Previous/next moves between cards; Preview does not affect study history. Use the edit button to change the original fields."
+      ],
+      [
+        "search",
+        "Search text—even inside images",
+        "Use the magnifying glass on Today or Decks. Search includes card text and on-device text recognition in question and answer images. Today results open a review; Decks results open Preview. OCR quality depends on the image and supported recognition languages; it is not visual similarity search."
+      ],
+      [
+        "review",
+        "Study and rate your recall",
+        "Show the answer, then rate: Again (not recalled), Hard (recalled with effort), Good (recalled), Easy (recalled easily). Ratings update review history and the next review schedule. Preview never records these ratings."
+      ],
+      [
+        "edit",
+        "Create your own cards",
+        "Use Add Card and choose a deck. Add text, images or audio; create cloze cards or use Image Occlusion. Check Preview before saving complex formatting. Imported templates and add-ons can vary in compatibility."
+      ],
+      [
+        "sync",
+        "Enable iCloud sync",
+        "In Settings, open iCloud Sync and enable sync on your devices. Recolio Pro, the same Apple Account, iCloud permissions, network access and enough storage are required. Keep the app open during the first large sync. Sync is off by default. Avoid editing the same card on two offline devices at once."
+      ],
+      [
+        "export",
+        "Export and protect your work",
+        "Keep original packages and make independent exports before deleting data. .apkg export is a Pro feature; supported media, templates and review data can be included. CSV is for text and does not preserve full media or scheduling. Sync is not an independent backup."
+      ],
+      [
+        "pro",
+        "Free and Pro",
+        "Free study supports up to 1,000 active cards in the selected decks; demo cards do not count. The first three successful .apkg imports that add new cards have no card-count paywall. Afterward, up to 1,000 additional active cards can be added; exempt cards do not use that allowance. The free study limit still applies. Failed or duplicate-only imports do not use a trial; deleting a deck does not reset trials. Pro removes the card limit and adds iCloud sync, advanced statistics/filters and .apkg export. Choose an auto-renewing annual subscription or a one-time Lifetime Pro purchase for current Pro features."
+      ],
+      [
+        "safety",
+        "Move or remove data safely",
+        "Export anything important before uninstalling or deleting a deck. Removing the app does not necessarily remove its iCloud data. Use Restore Purchases with the purchasing Apple Account on another compatible device. Deleting the app does not cancel a subscription."
+      ]
+    ],
+    "faq": [
+      [
+        "How do I import an .apkg file?",
+        "Tap Import on Today or Decks, follow the guide, and choose a file from Files. Review the package before importing. Some custom templates or desktop add-ons may need adjustments."
+      ],
+      [
+        "Why can’t I find text in an image yet?",
+        "On-device recognition and indexing can take time for new or large decks. Try clear, larger printed words and check both sides of the card. Image search finds recognized words, not objects or similar-looking pictures. UI language and card content language are independent."
+      ],
+      [
+        "Why is media missing?",
+        "Check whether the original package includes the image or audio. Remote resources need a connection and may be blocked by their host. Keep the source package and report a small, non-sensitive example if needed."
+      ],
+      [
+        "How do I get iCloud sync working?",
+        "Sync is off by default and requires Pro. Enable it in Settings on each device; use the same Apple Account, allow iCloud access, check storage and connect to the network. Let the first sync finish before making major changes. Do not reinstall before protecting local data."
+      ],
+      [
+        "How do I restore a purchase or cancel a subscription?",
+        "Choose Restore Purchases in Recolio Pro while using the Apple Account that made the purchase. Annual access requires an active subscription. Manage or cancel annual renewal in Apple Settings → your name → Subscriptions. Deleting the app does not cancel it. Apple handles billing and refund decisions."
+      ],
+      [
+        "What should I send support?",
+        "Include the app/build version, device and OS, steps, expected and actual results, approximate deck/card counts and the exact error. Remove private content and copyrighted files from public issues. Export important data before destructive troubleshooting."
+      ]
+    ],
+    "labels": [
+      "Help for the next step",
+      "A guide when you’re starting. Answers when you get stuck.",
+      "Import, organize, search, study and sync.",
+      "Troubleshooting and purchase help.",
+      "How local storage, iCloud and permissions work.",
+      "Read the guide",
+      "Get help",
+      "Read the policy",
+      "Contact us",
+      "Real app screenshots. Original example cards; create or import your own content.",
+      "iCloud sync · Recolio Pro",
+      "Support by email",
+      "Open a GitHub issue",
+      "Effective July 20, 2026 · Updated October 30, 2026",
+      "Back to home"
+    ]
+  },
+  "zh-Hans": {
+    "nav": [
+      "使用手册",
+      "支持",
+      "隐私",
+      "条款",
+      "语言",
+      "获取 Recolio",
+      "了解功能"
+    ],
+    "hero": [
+      "适用于 iPhone 和 iPad 的学习卡片",
+      "你的卡片，\n更轻松的学习方式。",
+      "导入牌组，或制作自己的卡片。轻松找到所需内容，连图片里的文字也能搜索，找到就能开始复习。",
+      "自己的内容，自己的节奏，无需注册 Recolio 账户。"
+    ],
+    "features": [
+      [
+        "轻松开始",
+        "导入、预览，然后开始学习。",
+        "选择 .apkg 文件，确认导入信息，保存到文件夹。先预览卡片的实际显示效果，不影响复习历史；准备好再开始复习。",
+        "Recolio 的牌组导入与卡片预览"
+      ],
+      [
+        "找到记得的那张卡",
+        "记得图里的词？搜一下就好。",
+        "搜索卡片文字，以及正反面图片中识别到的文字。图片匹配结果带有缩略图和关键词高亮。从 Today 搜索后，可直接打开卡片复习。",
+        "通过卡片图片文字找到的搜索结果"
+      ],
+      [
+        "按自己的思路整理",
+        "你的科目，你命名的文件夹。",
+        "用学期、考试或语言来命名文件夹。把相关牌组放在一起，展开牌组层级，选择复习范围，无需修改导入牌组的原始名称。",
+        "用自命名文件夹管理牌组"
+      ],
+      [
+        "换台设备，继续学习",
+        "出门用 iPhone，回家用 iPad。",
+        "开启 iCloud 同步后，在登录同一 Apple 账户的设备之间同步卡片和学习进度。同步默认关闭，需要 Recolio Pro、iCloud 权限和可用存储空间。",
+        "iPhone 和 iPad 上的学习体验"
+      ]
+    ],
+    "extra": [
+      "制作适合自己的卡片",
+      "加入文字、图片和音频；用 Cloze 挖空文字，或用图片遮挡隐藏图解的一部分。先预览再学习，需要修改时才打开编辑器。",
+      "让复习融入每天",
+      "间隔重复根据回答安排下一次复习。Again 表示未能回忆；Hard 表示成功但费力；Good 和 Easy 区分正常回忆与轻松回忆。"
+    ],
+    "guide": [
+      [
+        "start",
+        "从导入牌组开始",
+        "点击 Today 或 Decks 上的导入按钮，先查看 .apkg 导入引导，再从“文件”选择牌组。确认摘要，选择或创建文件夹后导入。核对导入结果前，请保留原文件。"
+      ],
+      [
+        "structure",
+        "文件夹、牌组与卡片",
+        "文件夹用于整理牌组，卡片属于牌组。按科目、项目或考试为文件夹命名，导入的牌组层级保持原样。在 Today 选择文件夹或牌组分支，确定学习范围。"
+      ],
+      [
+        "preview",
+        "复习前先预览",
+        "从 Decks 打开卡片，预览实际呈现的正面和答案，切换上一张或下一张。预览不会影响学习历史；点击编辑按钮才会进入原始字段编辑。"
+      ],
+      [
+        "search",
+        "搜索文字，也能搜索图片中的文字",
+        "点击 Today 或 Decks 的放大镜。搜索范围包括卡片文字及正反面图片经设备端识别的文字。Today 结果进入复习，Decks 结果进入预览。识别效果取决于图片和支持的语言，并不是按图片相似度搜索。"
+      ],
+      [
+        "review",
+        "学习并评价回忆情况",
+        "查看答案后选择 Again（未回忆出）、Hard（费力回忆出）、Good（正常回忆出）或 Easy（轻松回忆出）。评分会记录学习历史并更新下次复习时间；预览不会记录评分。"
+      ],
+      [
+        "edit",
+        "制作自己的卡片",
+        "在 Add Card 选择目标牌组，加入文字、图片或音频，制作 Cloze 挖空卡或图片遮挡卡。复杂排版保存前先预览。导入模板和插件的兼容性可能有所不同。"
+      ],
+      [
+        "sync",
+        "开启 iCloud 同步",
+        "在设置中进入 iCloud 同步，并在各设备开启。需要 Pro、相同 Apple 账户、iCloud 权限、网络和足够空间。首次大型同步时保持 App 打开。同步默认关闭，尽量不要在两台离线设备同时修改同一卡片。"
+      ],
+      [
+        "export",
+        "导出与保管资料",
+        "保留原始牌组文件，删除数据前另行导出备份。.apkg 导出需要 Pro，可包含支持的媒体、模板和复习数据。CSV 用于文字，不保留完整媒体或调度。同步不能代替独立备份。"
+      ],
+      [
+        "pro",
+        "免费版与 Pro",
+        "免费学习支持所选牌组中最多 1,000 张有效卡片，演示卡不计入。前三次成功且新增卡片的 .apkg 导入不设卡片数量付费限制；之后可新增最多 1,000 张有效卡片，前三次豁免的卡片不占此额度。免费学习仍受 1,000 张限制。失败或仅更新重复内容不消耗次数，删除牌组不会重置次数。Pro 取消卡片数量限制，增加 iCloud 同步、高级统计/筛选及 .apkg 导出；可选择自动续订的年订阅或一次性购买的 Lifetime Pro，解锁当前 Pro 功能。"
+      ],
+      [
+        "safety",
+        "安全转移或删除数据",
+        "卸载或删除牌组前先导出重要资料。删除 App 不一定删除 iCloud 数据。换兼容设备后，使用购买所用 Apple 账户恢复购买。删除 App 不会取消订阅。"
+      ]
+    ],
+    "faq": [
+      [
+        "如何导入 .apkg 文件？",
+        "点击 Today 或 Decks 的导入按钮，查看引导后从“文件”选择牌组，确认信息再导入。部分自定义模板或桌面插件可能需要调整。"
+      ],
+      [
+        "为什么暂时搜不到图片里的字？",
+        "新导入或大型牌组的设备端识别和索引需要时间。尝试清晰、较大的印刷文字，并检查正反面。图片搜索查找识别到的文字，不是识别物体或查找相似图片。界面语言与卡片内容语言相互独立。"
+      ],
+      [
+        "为什么图片或音频缺失？",
+        "先确认原牌组是否包含媒体。远程资源需要网络，也可能被托管方阻止。保留原文件，必要时提供不含敏感信息的小型示例。"
+      ],
+      [
+        "如何让 iCloud 同步正常工作？",
+        "同步默认关闭且需要 Pro。在各设备设置中开启，使用同一 Apple 账户并授予 iCloud 权限，检查空间和网络。首次同步完成后再大量修改。未保护本地数据前，不要直接重装。"
+      ],
+      [
+        "如何恢复购买或取消订阅？",
+        "使用购买时的 Apple 账户，在 Recolio Pro 选择恢复购买。年度权益需要订阅有效。在 Apple 设置→你的姓名→订阅中管理或取消自动续订。删除 App 不会取消订阅。账单及退款由 Apple 处理。"
+      ],
+      [
+        "联系支持需要提供什么？",
+        "请提供 App/构建版本、设备和系统、操作步骤、预期与实际结果、大致牌组/卡片数及完整报错。公开 Issue 中请移除私人内容和受版权保护的文件，删除或重装前先导出重要资料。"
+      ]
+    ],
+    "labels": [
+      "下一步，需要时有帮助",
+      "入门有手册，遇到问题有解答。",
+      "导入、整理、搜索、学习与同步。",
+      "故障排查和购买帮助。",
+      "了解本地存储、iCloud 与权限。",
+      "阅读手册",
+      "获取帮助",
+      "阅读政策",
+      "联系我们",
+      "真实 App 截图，展示原创示例卡片；学习内容由你创建或导入。",
+      "iCloud 同步 · Recolio Pro",
+      "邮件支持",
+      "创建 GitHub Issue",
+      "生效日期：2026 年 7 月 20 日 · 更新日期：2026 年 10 月 30 日",
+      "返回首页"
+    ]
+  },
+  "zh-Hant": {
+    "nav": [
+      "使用手冊",
+      "支援",
+      "隱私",
+      "條款",
+      "語言",
+      "取得 Recolio",
+      "探索功能"
+    ],
+    "hero": [
+      "適用於 iPhone 與 iPad 的學習卡片",
+      "你的卡片，\n更輕鬆的學習方式。",
+      "匯入牌組，或製作自己的卡片。輕鬆找到所需內容，連圖片裡的文字也能搜尋，找到就能開始複習。",
+      "自己的教材，自己的步調，無須註冊 Recolio 帳號。"
+    ],
+    "features": [
+      [
+        "輕鬆開始",
+        "匯入、預覽，接著開始學習。",
+        "選擇 .apkg 檔案，確認匯入資訊，再存入資料夾。先預覽卡片的實際呈現，不影響複習紀錄；準備好再開始複習。",
+        "Recolio 的牌組匯入與卡片預覽"
+      ],
+      [
+        "找到記得的那張卡",
+        "記得圖裡的詞？搜尋看看。",
+        "搜尋卡片文字，以及正反面圖片中辨識到的文字。圖片命中結果提供縮圖與關鍵字醒目標示。從 Today 搜尋後，可直接開啟卡片複習。",
+        "透過卡片圖片中的文字找到搜尋結果"
+      ],
+      [
+        "按自己的方式整理",
+        "你的科目，你命名的資料夾。",
+        "用學期、考試或語言為資料夾命名。把相關牌組放在一起，展開牌組階層並選擇複習範圍，不必更改匯入牌組的原始名稱。",
+        "以自訂名稱的資料夾管理牌組"
+      ],
+      [
+        "換台裝置，接著學",
+        "外出用 iPhone，回家用 iPad。",
+        "開啟 iCloud 同步後，在登入相同 Apple 帳號的裝置間同步卡片與學習進度。同步預設關閉，需要 Recolio Pro、iCloud 權限與可用儲存空間。",
+        "iPhone 與 iPad 上的學習體驗"
+      ]
+    ],
+    "extra": [
+      "製作適合自己的卡片",
+      "加入文字、圖片與音訊；用 Cloze 挖空文字，或以圖片遮擋隱藏圖解的一部分。先預覽再學習，需要修改時才開啟編輯器。",
+      "讓複習融入每天",
+      "間隔重複會依回答安排下次複習。Again 代表未能回想；Hard 代表成功但費力；Good 與 Easy 區分正常回想與輕鬆回想。"
+    ],
+    "guide": [
+      [
+        "start",
+        "從匯入牌組開始",
+        "點選 Today 或 Decks 的匯入按鈕，先查看 .apkg 匯入引導，再從「檔案」選擇牌組。確認摘要，選擇或建立資料夾後匯入。核對結果前請保留原始檔案。"
+      ],
+      [
+        "structure",
+        "資料夾、牌組與卡片",
+        "資料夾用來整理牌組，卡片屬於牌組。依科目、專案或考試為資料夾命名，匯入的牌組階層保持原樣。在 Today 選擇資料夾或牌組分支，設定學習範圍。"
+      ],
+      [
+        "preview",
+        "複習前先預覽",
+        "從 Decks 開啟卡片，預覽實際呈現的正面與答案，切換上一張或下一張。預覽不會影響學習紀錄；點選編輯按鈕才會進入原始欄位編輯。"
+      ],
+      [
+        "search",
+        "搜尋文字，也能搜尋圖片中的文字",
+        "點選 Today 或 Decks 的放大鏡。搜尋包含卡片文字及正反面圖片經裝置端辨識的文字。Today 結果進入複習，Decks 結果進入預覽。辨識效果取決於圖片與支援語言，並非以圖片相似度搜尋。"
+      ],
+      [
+        "review",
+        "學習並評估回想情況",
+        "查看答案後選擇 Again（未能回想）、Hard（費力回想）、Good（正常回想）或 Easy（輕鬆回想）。評分會記錄學習歷史並更新下次複習時間；預覽不會記錄評分。"
+      ],
+      [
+        "edit",
+        "製作自己的卡片",
+        "在 Add Card 選擇目標牌組，加入文字、圖片或音訊，製作 Cloze 挖空卡或圖片遮擋卡。複雜排版請先預覽再儲存。匯入範本與外掛程式的相容性可能不同。"
+      ],
+      [
+        "sync",
+        "開啟 iCloud 同步",
+        "在設定中進入 iCloud 同步，並在各裝置開啟。需要 Pro、相同 Apple 帳號、iCloud 權限、網路與足夠空間。首次大型同步時保持 App 開啟。同步預設關閉，盡量避免在兩台離線裝置同時修改同一卡片。"
+      ],
+      [
+        "export",
+        "匯出與保存教材",
+        "保留原始牌組檔，刪除資料前另行匯出備份。.apkg 匯出需要 Pro，可包含支援的媒體、範本與複習資料。CSV 用於文字，不保留完整媒體或排程。同步無法取代獨立備份。"
+      ],
+      [
+        "pro",
+        "免費版與 Pro",
+        "免費學習支援所選牌組中最多 1,000 張有效卡片，示範卡不計入。前三次成功且新增卡片的 .apkg 匯入不設卡片數量付費限制；之後可新增最多 1,000 張有效卡片，前三次豁免的卡片不佔此額度。免費學習仍受 1,000 張限制。失敗或僅更新重複內容不消耗次數，刪除牌組不會重設次數。Pro 取消卡片數量限制，加入 iCloud 同步、進階統計/篩選及 .apkg 匯出；可選擇自動續訂的年訂閱或一次性購買 Lifetime Pro，解鎖目前 Pro 功能。"
+      ],
+      [
+        "safety",
+        "安全轉移或刪除資料",
+        "解除安裝或刪除牌組前，先匯出重要教材。刪除 App 不一定刪除 iCloud 資料。換用相容裝置後，使用購買時的 Apple 帳號回復購買項目。刪除 App 不會取消訂閱。"
+      ]
+    ],
+    "faq": [
+      [
+        "如何匯入 .apkg 檔案？",
+        "點選 Today 或 Decks 的匯入按鈕，查看引導後從「檔案」選擇牌組，確認資訊再匯入。部分自訂範本或桌面外掛程式可能需要調整。"
+      ],
+      [
+        "為什麼暫時搜尋不到圖片裡的字？",
+        "新匯入或大型牌組的裝置端辨識與索引需要時間。請試用清晰、較大的印刷文字，並檢查正反面。圖片搜尋查找辨識到的文字，並非辨識物體或尋找相似圖片。介面語言與卡片內容語言相互獨立。"
+      ],
+      [
+        "為什麼圖片或音訊遺失？",
+        "先確認原牌組是否包含媒體。遠端資源需要網路，也可能遭託管方封鎖。保留原始檔案，必要時提供不含敏感資訊的小型範例。"
+      ],
+      [
+        "如何讓 iCloud 同步正常運作？",
+        "同步預設關閉且需要 Pro。在各裝置設定中開啟，使用相同 Apple 帳號並授予 iCloud 權限，檢查空間與網路。首次同步完成後再大量修改。保護本機資料前，不要直接重新安裝。"
+      ],
+      [
+        "如何回復購買項目或取消訂閱？",
+        "使用購買時的 Apple 帳號，在 Recolio Pro 選擇回復購買項目。年度權益須有有效訂閱。在 Apple 設定→你的姓名→訂閱中管理或取消自動續訂。刪除 App 不會取消訂閱；帳務及退款由 Apple 處理。"
+      ],
+      [
+        "聯絡支援需要提供什麼？",
+        "請提供 App/組建版本、裝置與系統、操作步驟、預期及實際結果、大致牌組/卡片數與完整錯誤訊息。公開 Issue 請移除私人內容與受著作權保護的檔案；刪除或重新安裝前先匯出重要教材。"
+      ]
+    ],
+    "labels": [
+      "下一步，需要時有支援",
+      "入門有手冊，遇到問題有解答。",
+      "匯入、整理、搜尋、學習與同步。",
+      "疑難排解與購買協助。",
+      "瞭解本機儲存、iCloud 與權限。",
+      "閱讀手冊",
+      "取得協助",
+      "閱讀政策",
+      "聯絡我們",
+      "真實 App 截圖，展示原創範例卡片；教材由你建立或匯入。",
+      "iCloud 同步 · Recolio Pro",
+      "電子郵件支援",
+      "建立 GitHub Issue",
+      "生效日期：2026 年 7 月 20 日 · 更新日期：2026 年 10 月 30 日",
+      "返回首頁"
+    ]
+  },
+  "ja": {
+    "nav": [
+      "使い方",
+      "サポート",
+      "プライバシー",
+      "利用規約",
+      "言語",
+      "Recolio を入手",
+      "機能を見る"
+    ],
+    "hero": [
+      "iPhone・iPad の学習カード",
+      "自分のカードで、\nもっと手軽に復習。",
+      "デッキを読み込んでも、自分で作っても。画像の中の文字まで検索できるので、探していたカードを見つけたら、すぐに復習へ。",
+      "自分の教材を、自分のペースで。Recolio アカウントの登録は不要です。"
+    ],
+    "features": [
+      [
+        "すぐに始められる",
+        "読み込んで、確認して、学習へ。",
+        ".apkg ファイルを選び、内容を確認してフォルダに保存。カードの表示をプレビューしても、復習履歴は変わりません。準備ができたら学習を始めましょう。",
+        "Recolio のデッキ読み込みとカードプレビュー"
+      ],
+      [
+        "覚えている言葉から探す",
+        "図にあった言葉、検索してみよう。",
+        "カード本文に加え、表面・裏面の画像から認識した文字も検索。画像の検索結果にはサムネイルと一致した言葉が表示されます。Today からなら、そのままカードを復習できます。",
+        "カード画像内の文字に一致した検索結果"
+      ],
+      [
+        "自分に合う整理方法",
+        "科目も、フォルダ名も、自分流。",
+        "学期、試験、言語など、好きな名前でフォルダを作成。関連するデッキをまとめ、階層をたどって学習範囲を選べます。元のデッキ名は変わりません。",
+        "名前を付けたフォルダでデッキを整理"
+      ],
+      [
+        "別のデバイスでも続きから",
+        "外では iPhone。机では iPad。",
+        "iCloud 同期を有効にすると、同じ Apple Account のデバイス間でカードと学習状況を同期できます。初期設定ではオフです。Recolio Pro、iCloud へのアクセス許可、空き容量が必要です。",
+        "iPhone と iPad での学習画面"
+      ]
+    ],
+    "extra": [
+      "自分の覚え方に合わせて",
+      "文字、画像、音声をカードに。穴埋め（Cloze）や画像の一部を隠す機能も使えます。学習前にプレビューし、直したいときだけ編集画面へ。",
+      "毎日の復習を、無理なく",
+      "間隔反復が回答に応じて次の復習を予定します。Again は思い出せなかった場合、Hard は苦労して思い出せた場合。Good と Easy で通常の想起と楽な想起を区別します。"
+    ],
+    "guide": [
+      [
+        "start",
+        "デッキを読み込む",
+        "Today または Decks の読み込みボタンから .apkg の案内を開き、「ファイル」でデッキを選択します。概要を確認し、フォルダを選ぶか作成して読み込みます。結果を確認するまで元のファイルを残してください。"
+      ],
+      [
+        "structure",
+        "フォルダ・デッキ・カード",
+        "フォルダにはデッキを入れ、カードはデッキに属します。科目・課題・試験などで整理できます。読み込んだデッキの階層は保持されます。Today でフォルダやデッキの枝を選び、学習範囲を決めます。"
+      ],
+      [
+        "preview",
+        "復習前にプレビュー",
+        "Decks からカードを開き、表面と答えの実際の表示を確認できます。前後のカードにも移動できます。プレビューは学習履歴を変えません。元のフィールドを変更する場合は編集ボタンを押します。"
+      ],
+      [
+        "search",
+        "画像の中の文字も検索",
+        "Today または Decks の虫眼鏡を使います。本文と、表裏の画像からデバイス上で認識した文字を検索します。Today の結果は復習、Decks の結果はプレビューへ進みます。認識精度は画像と対応言語に依存し、画像の類似検索ではありません。"
+      ],
+      [
+        "review",
+        "思い出せた度合いを評価",
+        "答えを表示し、Again（思い出せなかった）、Hard（苦労して思い出せた）、Good（思い出せた）、Easy（簡単に思い出せた）から選びます。評価で履歴と次回の予定が更新されます。プレビューでは評価を記録しません。"
+      ],
+      [
+        "edit",
+        "自分のカードを作る",
+        "Add Card で保存先デッキを選び、文字・画像・音声を追加します。穴埋めカードや画像の一部を隠すカードも作れます。複雑な書式は保存前にプレビューしてください。読み込んだテンプレートや拡張機能の互換性は異なる場合があります。"
+      ],
+      [
+        "sync",
+        "iCloud 同期を有効にする",
+        "設定の iCloud 同期を各デバイスで有効にします。Pro、同じ Apple Account、iCloud の許可、通信環境、十分な空き容量が必要です。初回の大量同期中はアプリを開いておいてください。初期設定はオフです。オフラインの複数端末で同じカードを同時に編集しないでください。"
+      ],
+      [
+        "export",
+        "書き出して大切な教材を守る",
+        "元のファイルを残し、削除前に別の書き出しコピーを保管します。.apkg 書き出しは Pro 機能で、対応するメディア・テンプレート・復習データを含められます。CSV はテキスト向けで、メディアや予定を完全には保持しません。同期は独立したバックアップの代わりにはなりません。"
+      ],
+      [
+        "pro",
+        "無料版と Pro",
+        "無料の学習は選択したデッキの有効なカード 1,000 枚までで、デモカードは対象外です。新規カードを追加する最初の 3 回の .apkg 読み込みは、カード枚数による課金制限がありません。その後は最大 1,000 枚を追加でき、最初の 3 回の対象カードはその枠を消費しません。無料の学習上限は引き続き適用されます。失敗や重複のみの更新は回数を消費せず、デッキを削除しても回数は戻りません。Pro は枚数制限を解除し、iCloud 同期・高度な統計や絞り込み・.apkg 書き出しを追加します。自動更新の年間サブスクリプションか、現在の Pro 機能を対象とする Lifetime Pro の 1 回払いを選べます。"
+      ],
+      [
+        "safety",
+        "安全に移行・削除する",
+        "アンインストールやデッキ削除の前に重要な教材を書き出してください。アプリを削除しても iCloud データが削除されるとは限りません。別の対応デバイスでは購入した Apple Account で購入を復元します。アプリの削除でサブスクリプションは解約されません。"
+      ]
+    ],
+    "faq": [
+      [
+        ".apkg ファイルを読み込むには？",
+        "Today または Decks の読み込みボタンから案内を開き、「ファイル」でデッキを選びます。内容を確認してから読み込んでください。一部の独自テンプレートやデスクトップ用拡張機能は調整が必要な場合があります。"
+      ],
+      [
+        "画像内の文字がまだ検索できません",
+        "新規・大規模デッキの文字認識と索引作成には時間がかかることがあります。鮮明で大きめの印刷文字を試し、表裏の両方を確認してください。画像検索は認識した文字を探す機能で、物体や似た画像を探す機能ではありません。画面の言語と教材の言語は別です。"
+      ],
+      [
+        "画像や音声がありません",
+        "元のパッケージにメディアが入っているか確認してください。外部リソースには通信が必要で、提供元に遮断されることもあります。元のファイルを保管し、必要なら機密情報を含まない小さな例をお送りください。"
+      ],
+      [
+        "iCloud 同期が動きません",
+        "同期は初期設定でオフで、Pro が必要です。各端末の設定で有効にし、同じ Apple Account、iCloud の許可、空き容量、通信を確認してください。初回同期が終わるまで大きな変更は控えてください。ローカルデータを保護する前に再インストールしないでください。"
+      ],
+      [
+        "購入の復元・サブスクリプションの解約は？",
+        "購入時の Apple Account を使い、Recolio Pro の購入の復元を選びます。年間プランは有効な契約が必要です。Apple の設定→自分の名前→サブスクリプションで更新を管理・解約できます。アプリを削除しても解約されません。請求と返金は Apple が扱います。"
+      ],
+      [
+        "問い合わせには何を添えればよいですか？",
+        "アプリとビルドのバージョン、端末と OS、再現手順、期待した結果と実際の結果、デッキ・カードのおよその数、エラー全文をお知らせください。公開 Issue には個人情報や著作権のあるファイルを載せないでください。削除や再インストールの前に教材を書き出してください。"
+      ]
+    ],
+    "labels": [
+      "次の一歩をサポート",
+      "初めての方にはガイドを。困ったときには答えを。",
+      "読み込み・整理・検索・学習・同期の手順。",
+      "トラブル解決と購入のサポート。",
+      "ローカル保存、iCloud、アクセス権について。",
+      "使い方を読む",
+      "ヘルプを見る",
+      "ポリシーを読む",
+      "お問い合わせ",
+      "実際のアプリ画面とオリジナルの例です。教材は自分で作成・読み込みできます。",
+      "iCloud 同期 · Recolio Pro",
+      "メールで問い合わせる",
+      "GitHub Issue を作成",
+      "施行日：2026年7月20日 · 更新日：2026年10月30日",
+      "ホームへ"
+    ]
+  },
+  "ko": {
+    "nav": [
+      "사용 가이드",
+      "지원",
+      "개인정보",
+      "이용약관",
+      "언어",
+      "Recolio 다운로드",
+      "기능 살펴보기"
+    ],
+    "hero": [
+      "iPhone과 iPad를 위한 학습 카드",
+      "내 카드로,\n더 간편하게 복습하세요.",
+      "덱을 가져오거나 직접 카드를 만드세요. 이미지 속 글자까지 검색하고, 찾은 카드를 바로 복습할 수 있어요.",
+      "내 학습 자료를 내 속도로. Recolio 계정 가입은 필요 없어요."
+    ],
+    "features": [
+      [
+        "간편한 시작",
+        "덱을 가져오고, 확인하고, 학습하세요.",
+        ".apkg 파일을 선택해 내용을 확인하고 폴더에 저장하세요. 미리 보기로 실제 카드 화면을 확인해도 복습 기록은 바뀌지 않아요. 준비되면 학습을 시작하세요.",
+        "Recolio의 덱 가져오기와 카드 미리 보기"
+      ],
+      [
+        "기억나는 단어로 찾기",
+        "도표 속 단어가 기억나나요? 검색하세요.",
+        "카드 본문뿐 아니라 앞면과 뒷면 이미지에서 인식한 글자도 검색해요. 이미지 검색 결과에는 미리 보기 이미지와 강조된 검색어가 표시돼요. Today에서 찾은 카드는 바로 복습할 수 있어요.",
+        "카드 이미지 속 글자와 일치하는 검색 결과"
+      ],
+      [
+        "내 방식대로 정리",
+        "과목도, 폴더 이름도 내 방식대로.",
+        "학기, 시험, 언어처럼 알아보기 쉬운 이름으로 폴더를 만드세요. 관련 덱을 모으고 계층을 펼쳐 학습 범위를 고를 수 있어요. 가져온 덱의 원래 이름은 유지돼요.",
+        "직접 이름 붙인 폴더로 덱 정리"
+      ],
+      [
+        "다른 기기에서도 이어서",
+        "밖에서는 iPhone, 책상에서는 iPad.",
+        "iCloud 동기화를 켜면 같은 Apple 계정의 기기 간에 카드와 학습 진행 상황을 동기화할 수 있어요. 기본값은 꺼짐이며, Recolio Pro와 iCloud 접근 권한, 충분한 저장 공간이 필요해요.",
+        "iPhone과 iPad의 학습 화면"
+      ]
+    ],
+    "extra": [
+      "나에게 맞는 카드 만들기",
+      "텍스트, 이미지, 오디오를 더하세요. Cloze로 단어를 빈칸 처리하거나 이미지 가리기로 도표의 일부를 숨길 수 있어요. 학습 전에 미리 보고, 수정할 때만 편집기를 여세요.",
+      "매일 이어 가는 복습",
+      "간격 반복은 답변에 따라 다음 복습을 예약해요. Again은 떠올리지 못한 경우, Hard는 힘들게 떠올린 경우예요. Good과 Easy는 보통으로 떠올린 경우와 쉽게 떠올린 경우를 구분해요."
+    ],
+    "guide": [
+      [
+        "start",
+        "덱 가져오기부터 시작하기",
+        "Today 또는 Decks의 가져오기 버튼을 누르고 .apkg 안내를 확인한 뒤 파일 앱에서 덱을 선택하세요. 요약을 확인하고 폴더를 고르거나 만든 다음 가져오세요. 결과를 확인할 때까지 원본 파일을 보관하세요."
+      ],
+      [
+        "structure",
+        "폴더, 덱, 카드",
+        "폴더에는 덱이 들어가고 카드는 덱에 속해요. 과목, 프로젝트, 시험별로 폴더 이름을 정할 수 있어요. 가져온 덱의 계층은 유지돼요. Today에서 폴더나 덱의 하위 구조를 선택해 학습 범위를 정하세요."
+      ],
+      [
+        "preview",
+        "복습 전에 미리 보기",
+        "Decks에서 카드를 열어 실제 앞면과 답안을 확인하고 이전·다음 카드로 이동하세요. 미리 보기는 학습 기록에 영향을 주지 않아요. 원본 필드를 수정하려면 편집 버튼을 누르세요."
+      ],
+      [
+        "search",
+        "이미지 속 글자까지 검색하기",
+        "Today 또는 Decks의 돋보기를 사용하세요. 카드 본문과 앞·뒷면 이미지에서 기기 내에서 인식한 글자를 검색해요. Today의 결과는 복습으로, Decks의 결과는 미리 보기로 열려요. 인식 품질은 이미지와 지원 언어에 따라 달라지며, 비슷한 이미지를 찾는 기능은 아니에요."
+      ],
+      [
+        "review",
+        "학습하고 기억 상태 평가하기",
+        "답안을 확인한 뒤 Again(못 떠올림), Hard(어렵게 떠올림), Good(떠올림), Easy(쉽게 떠올림) 중 하나를 선택하세요. 평가는 학습 기록과 다음 복습 일정에 반영돼요. 미리 보기에서는 평가가 기록되지 않아요."
+      ],
+      [
+        "edit",
+        "직접 카드 만들기",
+        "Add Card에서 덱을 고르고 텍스트·이미지·오디오를 더하세요. Cloze 빈칸 카드와 이미지 가리기 카드도 만들 수 있어요. 복잡한 서식은 저장 전에 미리 확인하세요. 가져온 템플릿과 추가 기능은 호환성이 다를 수 있어요."
+      ],
+      [
+        "sync",
+        "iCloud 동기화 켜기",
+        "각 기기의 설정에서 iCloud 동기화를 켜세요. Pro, 같은 Apple 계정, iCloud 권한, 네트워크, 충분한 저장 공간이 필요해요. 처음 대량 동기화할 때는 앱을 열어 두세요. 동기화는 기본적으로 꺼져 있어요. 오프라인 상태의 두 기기에서 같은 카드를 동시에 수정하지 마세요."
+      ],
+      [
+        "export",
+        "내보내기와 자료 보관",
+        "원본 파일을 보관하고 데이터를 지우기 전에 별도로 내보내세요. .apkg 내보내기는 Pro 기능이며 지원되는 미디어·템플릿·복습 데이터를 포함할 수 있어요. CSV는 텍스트용으로 미디어나 복습 일정을 완전히 보존하지 않아요. 동기화는 별도의 백업을 대신하지 않아요."
+      ],
+      [
+        "pro",
+        "무료와 Pro",
+        "무료 학습은 선택한 덱의 활성 카드 1,000장까지 지원하며 데모 카드는 제외돼요. 새 카드를 추가하는 첫 세 번의 성공적인 .apkg 가져오기에는 카드 수에 따른 유료 제한이 없어요. 이후 최대 1,000장의 활성 카드를 추가할 수 있으며 앞선 세 번의 면제 카드는 이 한도를 쓰지 않아요. 무료 학습 한도는 계속 적용돼요. 실패하거나 중복 항목만 업데이트한 경우는 횟수를 쓰지 않으며, 덱을 지워도 횟수는 초기화되지 않아요. Pro는 카드 수 제한을 없애고 iCloud 동기화, 고급 통계/필터, .apkg 내보내기를 제공해요. 자동 갱신 연간 구독 또는 현재 Pro 기능을 위한 일회성 Lifetime Pro 구매를 선택할 수 있어요."
+      ],
+      [
+        "safety",
+        "안전하게 이동하거나 삭제하기",
+        "앱을 삭제하거나 덱을 지우기 전에 중요한 자료를 내보내세요. 앱 삭제가 iCloud 데이터 삭제를 뜻하지는 않아요. 다른 호환 기기에서는 구매한 Apple 계정으로 구입 항목을 복원하세요. 앱을 지워도 구독은 취소되지 않아요."
+      ]
+    ],
+    "faq": [
+      [
+        ".apkg 파일은 어떻게 가져오나요?",
+        "Today 또는 Decks의 가져오기 버튼에서 안내를 확인하고 파일 앱에서 덱을 선택하세요. 내용을 확인한 뒤 가져오세요. 일부 사용자 템플릿이나 데스크톱 추가 기능은 조정이 필요할 수 있어요."
+      ],
+      [
+        "이미지 속 글자가 아직 검색되지 않아요",
+        "새 덱이나 큰 덱은 기기 내 인식과 색인에 시간이 걸릴 수 있어요. 크고 선명한 인쇄 글자로 시도하고 카드 양면을 확인하세요. 이미지 검색은 인식된 글자를 찾으며 물체나 비슷한 사진을 찾지는 않아요. UI 언어와 카드 내용 언어는 별개예요."
+      ],
+      [
+        "이미지나 오디오가 없어요",
+        "원본 패키지에 미디어가 포함되어 있는지 확인하세요. 외부 리소스는 네트워크가 필요하고 제공자가 차단할 수도 있어요. 원본을 보관하고 필요하면 민감한 정보가 없는 작은 예시를 보내 주세요."
+      ],
+      [
+        "iCloud 동기화가 작동하지 않아요",
+        "동기화는 기본적으로 꺼져 있고 Pro가 필요해요. 각 기기 설정에서 켜고 같은 Apple 계정, iCloud 권한, 저장 공간, 네트워크를 확인하세요. 처음 동기화를 마친 뒤 큰 변경을 하세요. 로컬 데이터를 보호하기 전에 앱을 다시 설치하지 마세요."
+      ],
+      [
+        "구입 복원이나 구독 취소는 어떻게 하나요?",
+        "구매한 Apple 계정으로 Recolio Pro에서 구입 항목 복원을 선택하세요. 연간 이용 권한에는 유효한 구독이 필요해요. Apple 설정→이름→구독에서 자동 갱신을 관리하거나 취소하세요. 앱을 삭제해도 구독은 취소되지 않아요. 결제와 환불은 Apple이 처리해요."
+      ],
+      [
+        "문의할 때 무엇을 보내야 하나요?",
+        "앱/빌드 버전, 기기와 OS, 재현 단계, 예상 결과와 실제 결과, 대략적인 덱/카드 수, 오류 전문을 알려 주세요. 공개 Issue에서는 개인정보와 저작권이 있는 파일을 제외하세요. 삭제나 재설치 전에 중요한 자료를 내보내세요."
+      ]
+    ],
+    "labels": [
+      "다음 단계도 도와드려요",
+      "처음에는 가이드를, 막힐 때는 도움말을 확인하세요.",
+      "가져오기, 정리, 검색, 학습, 동기화 안내.",
+      "문제 해결과 구매 도움말.",
+      "로컬 저장, iCloud, 권한 안내.",
+      "가이드 읽기",
+      "도움말 보기",
+      "정책 읽기",
+      "문의하기",
+      "실제 앱 화면과 직접 만든 예시 카드예요. 학습 자료는 직접 만들거나 가져오세요.",
+      "iCloud 동기화 · Recolio Pro",
+      "이메일로 문의",
+      "GitHub Issue 만들기",
+      "시행일: 2026년 7월 20일 · 수정일: 2026년 10월 30일",
+      "홈으로"
+    ]
+  },
+  "es": {
+    "nav": [
+      "Guía",
+      "Ayuda",
+      "Privacidad",
+      "Condiciones",
+      "Idioma",
+      "Descargar Recolio",
+      "Explorar funciones"
+    ],
+    "hero": [
+      "Tarjetas de estudio para iPhone y iPad",
+      "Tus tarjetas.\nEstudiar, más sencillo.",
+      "Importa un mazo o crea tus tarjetas. Encuentra lo que buscas, incluso palabras en imágenes, y empieza a repasar al momento.",
+      "Tu material, a tu ritmo. Sin crear una cuenta de Recolio."
+    ],
+    "features": [
+      [
+        "Un comienzo sencillo",
+        "Importa, explora y empieza a estudiar.",
+        "Elige un archivo .apkg, comprueba la importación y guárdalo en una carpeta. Explora las tarjetas sin cambiar tu historial de repaso. Empieza a estudiar cuando quieras.",
+        "Importación y vista previa de tarjetas en Recolio"
+      ],
+      [
+        "Encuentra la tarjeta que recuerdas",
+        "¿Recuerdas una palabra de un diagrama? Búscala.",
+        "Busca en el texto de las tarjetas y en las palabras reconocidas en las imágenes de ambos lados. Las coincidencias incluyen una miniatura y palabras resaltadas. Desde Today, abre el resultado y repasa al momento.",
+        "Resultado que coincide con texto dentro de una imagen"
+      ],
+      [
+        "Organización a tu manera",
+        "Tus materias. Tus carpetas.",
+        "Nombra tus carpetas por semestre, examen o idioma. Agrupa mazos, recorre sus niveles y elige qué estudiar sin cambiar los nombres originales de los mazos importados.",
+        "Mazos organizados en carpetas con nombres propios"
+      ],
+      [
+        "Continúa en otro dispositivo",
+        "iPhone fuera de casa. iPad en el escritorio.",
+        "Activa la sincronización con iCloud para mantener tus tarjetas y progreso entre dispositivos con la misma cuenta de Apple. Está desactivada por defecto y requiere Recolio Pro, acceso a iCloud y espacio disponible.",
+        "La experiencia de estudio en iPhone y iPad"
+      ]
+    ],
+    "extra": [
+      "Crea tus propias tarjetas",
+      "Añade texto, imágenes y audio. Oculta palabras con Cloze o partes de un diagrama con la ocultación de imágenes. Explora antes de estudiar y abre el editor solo cuando quieras cambiar algo.",
+      "Un ritmo diario para tu memoria",
+      "La repetición espaciada programa repasos según tus respuestas. Again indica que no recordaste; Hard, que recordaste con esfuerzo. Good y Easy distinguen recordar con normalidad de hacerlo con facilidad."
+    ],
+    "guide": [
+      [
+        "start",
+        "Empieza importando un mazo",
+        "Pulsa Importar en Today o Decks. La guía explica el formato .apkg; elige el archivo en Archivos, revisa el resumen y selecciona o crea una carpeta. Conserva el original hasta comprobar el resultado."
+      ],
+      [
+        "structure",
+        "Carpetas, mazos y tarjetas",
+        "Las carpetas contienen mazos; las tarjetas pertenecen a un mazo. Organiza por materia, proyecto o examen. Se mantienen los niveles de los mazos importados. En Today, elige una carpeta o rama del mazo para definir qué estudiar."
+      ],
+      [
+        "preview",
+        "Explora antes de repasar",
+        "Abre una tarjeta desde Decks para ver su pregunta y respuesta tal como se muestran. Puedes pasar a la anterior o siguiente. La vista previa no cambia el historial. Para modificar los campos originales, pulsa editar."
+      ],
+      [
+        "search",
+        "Busca texto, también en imágenes",
+        "Usa la lupa de Today o Decks. La búsqueda incluye texto de las tarjetas y texto reconocido en el dispositivo en las imágenes de pregunta y respuesta. Today abre el repaso; Decks abre la vista previa. La precisión depende de la imagen y de los idiomas compatibles. No es una búsqueda de imágenes similares."
+      ],
+      [
+        "review",
+        "Estudia y evalúa tu recuerdo",
+        "Muestra la respuesta y elige Again (no recordaste), Hard (recordaste con esfuerzo), Good (recordaste) o Easy (recordaste fácilmente). La valoración actualiza el historial y el próximo repaso. La vista previa no registra valoraciones."
+      ],
+      [
+        "edit",
+        "Crea tus tarjetas",
+        "En Add Card, elige un mazo y añade texto, imágenes o audio. Crea huecos con Cloze o tapa partes de una imagen. Comprueba la vista previa antes de guardar formatos complejos. La compatibilidad de plantillas y complementos importados puede variar."
+      ],
+      [
+        "sync",
+        "Activa la sincronización con iCloud",
+        "Actívala en los ajustes de cada dispositivo. Necesitas Pro, la misma cuenta de Apple, permiso de iCloud, conexión y espacio suficiente. Mantén abierta la app durante la primera sincronización grande. Está desactivada por defecto. Evita editar la misma tarjeta en dos dispositivos sin conexión a la vez."
+      ],
+      [
+        "export",
+        "Exporta y protege tu material",
+        "Conserva los originales y exporta una copia independiente antes de borrar datos. La exportación .apkg es Pro y puede incluir medios, plantillas y datos de repaso compatibles. CSV sirve para texto y no conserva todos los medios ni la programación. Sincronizar no sustituye una copia de seguridad independiente."
+      ],
+      [
+        "pro",
+        "Gratis y Pro",
+        "El estudio gratuito admite hasta 1.000 tarjetas activas de los mazos seleccionados; las de demostración no cuentan. Las tres primeras importaciones .apkg correctas que añadan tarjetas nuevas no tienen límite de tarjetas de pago. Después puedes añadir hasta 1.000 tarjetas activas adicionales; las exentas no consumen ese cupo. El límite de estudio gratuito sigue aplicándose. Las importaciones fallidas o que solo actualizan duplicados no gastan intentos; borrar mazos no los reinicia. Pro elimina el límite de tarjetas y añade iCloud, estadísticas/filtros avanzados y exportación .apkg. Elige suscripción anual autorrenovable o compra única Lifetime Pro para las funciones Pro actuales."
+      ],
+      [
+        "safety",
+        "Traslada o elimina datos con cuidado",
+        "Exporta lo importante antes de desinstalar o borrar un mazo. Borrar la app no elimina necesariamente los datos de iCloud. En otro dispositivo compatible, restaura las compras con la cuenta de Apple usada para comprar. Borrar la app no cancela la suscripción."
+      ]
+    ],
+    "faq": [
+      [
+        "¿Cómo importo un archivo .apkg?",
+        "Pulsa Importar en Today o Decks, consulta la guía y elige un archivo en Archivos. Revisa el paquete antes de importar. Algunas plantillas personalizadas o complementos de escritorio pueden necesitar ajustes."
+      ],
+      [
+        "¿Por qué aún no encuentro palabras de una imagen?",
+        "Los mazos nuevos o grandes pueden tardar en reconocerse e indexarse en el dispositivo. Prueba con texto impreso grande y claro; comprueba ambos lados. La búsqueda encuentra palabras reconocidas, no objetos ni imágenes parecidas. El idioma de la interfaz y el del contenido son independientes."
+      ],
+      [
+        "¿Por qué faltan imágenes o audio?",
+        "Comprueba que el paquete original incluya los medios. Los recursos externos necesitan conexión y su servidor puede bloquearlos. Guarda el original y, si hace falta, envía un ejemplo pequeño sin datos sensibles."
+      ],
+      [
+        "¿Cómo hago que funcione iCloud?",
+        "Está desactivado por defecto y requiere Pro. Actívalo en cada dispositivo, usa la misma cuenta de Apple, permite el acceso y comprueba espacio y conexión. Deja terminar la primera sincronización antes de hacer grandes cambios. No reinstales sin proteger los datos locales."
+      ],
+      [
+        "¿Cómo restauro una compra o cancelo una suscripción?",
+        "En Recolio Pro, elige restaurar compras con la cuenta de Apple que hizo la compra. El acceso anual requiere una suscripción vigente. Gestiona o cancela la renovación en Ajustes de Apple → tu nombre → Suscripciones. Borrar la app no la cancela. Apple gestiona cobros y reembolsos."
+      ],
+      [
+        "¿Qué envío a soporte?",
+        "Incluye versión y compilación, dispositivo y sistema, pasos, resultado esperado y real, número aproximado de mazos/tarjetas y error completo. Retira datos privados y archivos con derechos de autor de las incidencias públicas. Exporta lo importante antes de borrar o reinstalar."
+      ]
+    ],
+    "labels": [
+      "Ayuda para el siguiente paso",
+      "Una guía para empezar. Respuestas cuando las necesitas.",
+      "Importa, organiza, busca, estudia y sincroniza.",
+      "Solución de problemas y ayuda con compras.",
+      "Almacenamiento local, iCloud y permisos.",
+      "Leer la guía",
+      "Obtener ayuda",
+      "Leer la política",
+      "Contacto",
+      "Capturas reales con tarjetas de ejemplo originales. Crea o importa tu propio material.",
+      "Sincronización iCloud · Recolio Pro",
+      "Escribir un correo",
+      "Crear incidencia en GitHub",
+      "En vigor: 20 de julio de 2026 · Actualizado: 30 de octubre de 2026",
+      "Volver al inicio"
+    ]
+  }
+}

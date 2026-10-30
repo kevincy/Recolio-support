@@ -1,65 +1,61 @@
 (function () {
-  const key = "recolio-support-language";
+  'use strict';
+  const key = 'recolio-support-language';
   const root = document.documentElement;
-  let buttons = [];
-
+  const languages = ['en', 'zh-Hans', 'ja', 'ko', 'es', 'zh-Hant'];
   function supportedLanguage(language) {
-    if (typeof language !== "string") return null;
-    const value = language.trim().toLowerCase().replace(/_/g, "-");
-    if (value === "en" || value.startsWith("en-")) return "en";
-    if (value === "zh" || value.startsWith("zh-")) return "zh";
-    return null;
+    if (typeof language !== 'string') return null;
+    const value = language.trim().toLowerCase().replace(/_/g, '-');
+    if (/^zh-(hant|tw|hk|mo)(-|$)/.test(value)) return 'zh-Hant';
+    if (value === 'zh' || value.startsWith('zh-')) return 'zh-Hans';
+    return languages.find(code => value === code.toLowerCase() || value.startsWith(code.toLowerCase() + '-')) || null;
   }
-
   function updateInternalLinks(value) {
-    document.querySelectorAll("a[href]").forEach((link) => {
-      const href = link.getAttribute("href");
-      if (!href || href.startsWith("#")) return;
+    document.querySelectorAll('a[href]').forEach(link => {
+      const href = link.getAttribute('href');
+      if (!href || href.startsWith('#')) return;
       const url = new URL(href, window.location.href);
-      const siteRoot = new URL("./", window.location.href).pathname;
+      const siteRoot = new URL('./', window.location.href).pathname;
       if (url.origin !== window.location.origin || !url.pathname.startsWith(siteRoot)
-          || !url.pathname.endsWith(".html")) return;
-      url.searchParams.set("lang", value);
-      link.setAttribute("href", url.href);
+          || !url.pathname.endsWith('.html')) return;
+      url.searchParams.set('lang', value);
+      link.setAttribute('href', url.href);
     });
   }
-
   function chooseLanguage(language) {
-    const value = supportedLanguage(language) || "en";
+    const value = supportedLanguage(language) || 'en';
     root.dataset.language = value;
-    root.lang = value === "zh" ? "zh-Hans" : "en";
-    buttons.forEach((button) => {
-      const selected = button.dataset.languageChoice === value;
-      button.classList.toggle("active", selected);
-      button.setAttribute("aria-pressed", String(selected));
-    });
+    root.lang = value;
     updateInternalLinks(value);
     try { localStorage.setItem(key, value); } catch (_) {}
+    const select = document.getElementById('language');
+    if (select) select.value = value;
+    const content = document.querySelector('main > [data-locale="' + value + '"]');
+    if (content) {
+      document.title = content.dataset.title;
+      const meta = document.querySelector('meta[name="description"]');
+      if (meta) meta.setAttribute('content', content.dataset.description);
+      content.querySelectorAll('img[data-src]').forEach(img => {
+        if (!img.getAttribute('src')) img.setAttribute('src', img.dataset.src);
+      });
+    }
   }
-
   let stored;
   try { stored = localStorage.getItem(key); } catch (_) {}
-  const requested = new URL(window.location.href).searchParams.get("lang");
-  chooseLanguage(supportedLanguage(requested) || supportedLanguage(stored)
-    || supportedLanguage(navigator.language) || "en");
-
+  const requested = new URL(window.location.href).searchParams.get('lang');
+  const browser = (navigator.languages || [navigator.language]).map(supportedLanguage).find(Boolean);
+  chooseLanguage(supportedLanguage(requested) || supportedLanguage(stored) || browser || 'en');
   function bindControls() {
-    buttons = Array.from(document.querySelectorAll("[data-language-choice]"));
     chooseLanguage(root.dataset.language);
-    buttons.forEach((button) => {
-      button.addEventListener("click", () => {
-        const value = supportedLanguage(button.dataset.languageChoice) || "en";
-        chooseLanguage(value);
-        const url = new URL(window.location.href);
-        url.searchParams.set("lang", value);
-        try { window.history.replaceState(null, "", url.href); } catch (_) {}
-      });
+    const select = document.getElementById('language');
+    if (!select) return;
+    select.addEventListener('change', () => {
+      chooseLanguage(select.value);
+      const url = new URL(window.location.href);
+      url.searchParams.set('lang', root.dataset.language);
+      try { window.history.replaceState(null, '', url.href); } catch (_) {}
     });
   }
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", bindControls, { once: true });
-  } else {
-    bindControls();
-  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', bindControls, { once: true });
+  else bindControls();
 })();
-
