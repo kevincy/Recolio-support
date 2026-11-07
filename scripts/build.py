@@ -6,6 +6,7 @@ D=json.loads((ROOT/'content/site.json').read_text())
 LANGS=['en','zh-Hans','ja','ko','es','zh-Hant']
 NAMES=['English','简体中文','日本語','한국어','Español','繁體中文']
 E=lambda s:html.escape(s,quote=True)
+IMAGES={(r['language'],r['role']):r for r in json.loads((ROOT/'assets/screenshots/manifest.json').read_text())}
 def localized(fn):return ''.join(f'<span data-locale="{l}">{fn(D[l])}</span>' for l in LANGS)
 def chrome(page):
  nav=''.join(f'<a href="{p}.html"'+(' aria-current="page"' if page==p else '')+'>'+localized(lambda d,i=i:d['nav'][i])+'</a>' for i,p in enumerate(['guide','support','privacy']))
@@ -15,11 +16,14 @@ def footer():
  return '<footer class="site-footer"><div class="footer-inner"><a class="brand" href="index.html">Recolio</a><span>© 2026 Recolio</span><nav>'+''.join(f'<a href="{p}.html">'+localized(lambda d,i=i:d['nav'][i])+'</a>' for i,p in [(0,'guide'),(1,'support'),(2,'privacy'),(3,'terms')])+'</nav></div></footer>'
 def screenshot(lang,role,alt,eager=False):
  src=f'assets/screenshots/{lang}/{role}.webp'
- return f'<img data-src="{src}"'+(f' src="{src}"' if lang=='en' else '')+f' alt="{E(alt)}" loading="'+('eager' if eager else 'lazy')+'" decoding="async" width="'+('1100' if role.startswith('ipad') else '840')+'" height="'+('1467' if role.startswith('ipad') else '1821')+'">'
+ return f'<img data-src="{src}"'+(f' src="{src}"' if lang=='en' else '')+f' alt="{E(alt)}" loading="'+('eager' if eager else 'lazy')+'" decoding="async" width="'+str(IMAGES[(lang,role)]['width'])+'" height="'+str(IMAGES[(lang,role)]['height'])+'">'
 def home(lang,d):
  n,h,f,x,g,q,L=[d[k] for k in ['nav','hero','features','extra','guide','faq','labels']]
  store='<a class="button" href="https://apps.apple.com/app/id6823991638">'+E(n[5])+' <span aria-hidden="true">↗</span></a>'
- s=f'''<section class="hero"><div class="hero-grid"><div><p class="eyebrow">{E(h[0])}</p><h1>{E(h[1]).replace(chr(10),'<br>')}</h1><p class="hero-copy">{E(h[2])}</p><div class="hero-actions">{store}<a class="text-link" href="#tour-{lang}">{E(n[6])} ↓</a></div><p class="quiet">{E(h[3])}</p></div><figure class="hero-visual">{screenshot(lang,'02-search',f[1][3],True)}</figure></div></section>'''
+ s=f'''<section class="hero"><div class="hero-grid"><div><p class="eyebrow">{E(h[0])}</p><h1>{E(h[1]).replace(chr(10),'<br>')}</h1><p class="hero-copy">{E(h[2])}</p><div class="hero-actions">{store}<a class="text-link" href="#tour-{lang}">{E(n[6])} ↓</a></div><p class="quiet">{E(h[3])}</p></div><figure class="hero-visual">{screenshot(lang,'today',d['companion']['todayAlt'],True)}</figure></div></section>'''
+ c=d['companion']
+ s+=f'<section class="feature section companion" id="teach-{lang}"><div class="feature-copy"><p class="eyebrow">{E(c["eyebrow"])}</p><h2>{E(c["title"])}</h2><p>{E(c["body"])}</p><ol class="teach-steps">'+''.join('<li>'+E(step)+'</li>' for step in c['steps'])+f'</ol><p class="companion-note">{E(c["boundary"])}</p><a class="text-link" href="guide.html#{lang}-teach">{E(L[5])} →</a></div><figure class="companion-demo"><video controls playsinline preload="none" data-src="assets/videos/{lang}/companion.mp4" data-poster="assets/screenshots/{lang}/teach.webp" aria-label="{E(c["videoLabel"])}"></video><figcaption>{E(c["videoLabel"])}</figcaption></figure></section>'
+ s+=f'<section class="feature section saved-story"><div class="feature-copy"><h2>{E(c["steps"][2])}</h2><p>{E(c["accuracyA"])}</p><p>{E(c["storageA"])}</p><a class="text-link" href="guide.html#{lang}-companion">{E(c["settingsTitle"])} →</a></div><figure class="feature-visual">{screenshot(lang,"saved",c["savedAlt"])}</figure></section>'
  t=d['landing']
  s+='<div class="benefits section">'+''.join('<span><b aria-hidden="true">✓</b> '+E(v)+'</span>' for v in t['benefits'])+'</div>'
  s+='<section class="section start-steps"><p class="eyebrow">.apkg → Recolio</p><div class="step-grid">'+''.join(f'<a href="guide.html#{lang}-{anchor}"><span class="step-number">0{i+1}</span><h2>{E(title)}</h2><span aria-hidden="true">→</span></a>' for i,(title,anchor) in enumerate(zip(t['steps'],['start','preview','review'])))+'</div></section>'
@@ -35,7 +39,7 @@ def home(lang,d):
  s+=f'<section class="sync section" id="sync-{lang}"><div class="sync-intro"><p class="eyebrow">04 / {E(a[0])}</p><h2>{E(a[1])}</h2><p>{E(a[2])}</p><a class="text-link" href="guide.html#{lang}-sync">{E(L[5])} →</a></div><div class="sync-gallery"><figure>{screenshot(lang,"01-study",a[3])}<figcaption>iPhone</figcaption></figure><div class="sync-symbol" aria-hidden="true">↔<small>iCloud</small></div><figure>{screenshot(lang,"ipad-01-study",a[3])}<figcaption>iPad</figcaption></figure></div><p class="sync-badge">{E(L[10])}</p></section>'
  s+='<section class="section extras">'+''.join(f'<article><h2>{E(x[i])}</h2><p>{E(x[i+1])}</p></article>' for i in [0,2])+'</section>'
  s+=f'<section class="section resources"><p class="eyebrow">{E(L[0])}</p><h2>{E(L[1])}</h2><div class="cards">'+''.join(f'<article class="card"><h3>{E(n[i])}</h3><p>{E(L[i+2])}</p><a href="{p}.html">{E(L[i+5])} →</a></article>' for i,p in enumerate(['guide','support','privacy']))+f'</div><p class="quiet">{E(L[9])}</p></section>'
- s+=f'<section class="section home-faq"><h2>{E(t["faqTitle"])}</h2>'+''.join(f'<details><summary>{E(title)}</summary><p>{E(answer)}</p></details>' for title,answer in [q[0],q[1],q[3],q[4]])+'</section>'
+ s+=f'<section class="section home-faq"><h2>{E(t["faqTitle"])}</h2>'+''.join(f'<details><summary>{E(title)}</summary><p>{E(answer)}</p></details>' for title,answer in [q[6],q[7],q[8],q[0],q[1],q[3],q[4]])+'</section>'
  s+=f'<section class="section final-cta"><h2>{E(t["ctaTitle"])}</h2><p>{E(h[3])}</p>{store}</section>'
  return s
 
@@ -72,7 +76,7 @@ def build():
   description=D['en']['hero'][2] if page=='index' else D['en']['labels'][2 if page=='guide' else 3 if page=='support' else 4]
   alternates=''.join(f'<link rel="alternate" hreflang="{lang}" href="https://kevincy.github.io/Recolio-support/{page}.html?lang={lang}">' for lang in LANGS)
   output=f'''<!doctype html>
-<html lang="en" data-language="en"><head><meta charset="utf-8"><script src="assets/site.js?v=20261030-tour"></script><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="{E(description)}">{alternates}<meta name="theme-color" content="#faf8f4"><title>{E(title)}</title><link rel="icon" href="assets/app-icon.png"><link rel="stylesheet" href="assets/styles.css?v=20261030-tour"></head><body>{chrome(page)}<main>{body}</main>{footer()}</body></html>\n'''
+<html lang="en" data-language="en"><head><meta charset="utf-8"><script src="assets/site.js?v=20261107-companion"></script><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="{E(description)}">{alternates}<meta name="theme-color" content="#faf8f4"><title>{E(title)}</title><link rel="icon" href="assets/app-icon.png"><link rel="stylesheet" href="assets/styles.css?v=20261107-companion"></head><body>{chrome(page)}<main>{body}</main>{footer()}</body></html>\n'''
   (ROOT/(page+'.html')).write_text(output)
  print('Built 5 pages × 6 complete languages')
 if __name__=='__main__':build()

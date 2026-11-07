@@ -11,8 +11,8 @@
     ],
     "hero": [
       "Flashcards for iPhone & iPad",
-      "Find your card.\nGet back to learning.",
-      "Import a deck or make your own cards. Find what you need—even words inside images—and get straight to reviewing.",
+      "Meet your study cat.\nExplain it your way.",
+      "A little company for your daily reviews. Bring your own flashcards, find words even inside images, and explain what you’re learning to your cat.",
       "Your content. Your pace. No Recolio account required."
     ],
     "features": [
@@ -97,6 +97,26 @@
         "safety",
         "Move or remove data safely",
         "Export anything important before uninstalling or deleting a deck. Removing the app does not necessarily remove its iCloud data. Use Restore Purchases with the purchasing Apple Account on another compatible device. Deleting the app does not cancel a subscription."
+      ],
+      [
+        "teach",
+        "Teach the Cat",
+        "Open a card, explain it in your own words, then compare with the original answer. Add anything you missed, reflect on your understanding and save. Your cat responds when saving succeeds; you decide how well you understood it. Explanations stay on this device. They are excluded from iCloud sync and backups. Teach does not submit a normal review rating or change its schedule."
+      ],
+      [
+        "dictation",
+        "Type or speak, at your pace",
+        "Supported on-device dictation adds words directly to your explanation. You can edit them or keep typing without clearing existing text. Discard Transcript removes dictated text while preserving your typing. Microphone and speech permissions and device/language support are required; typing remains available."
+      ],
+      [
+        "reminders",
+        "Optional review reminders",
+        "Open Settings → Review Reminders to turn them on and allow notifications. On first setup, only 20:00 local time is enabled; 08:00 and 12:30 start off. Edit or disable each slot. Existing settings are preserved. Deck names stay hidden unless you opt in. Tapping a notification opens Today with current counts; delivery depends on system settings."
+      ],
+      [
+        "companion",
+        "Your companion, your choice",
+        "Study Companion and its animation control are in Settings. Turn the companion off to hide the cat without losing access to explanation drafts or history. Turn animations off or enable Reduce Motion for a static character."
       ]
     ],
     "faq": [
@@ -123,12 +143,24 @@
       [
         "What should I send support?",
         "Include the app/build version, device and OS, steps, expected and actual results, approximate deck/card counts and the exact error. Remove private content and copyrighted files from public issues. Export important data before destructive troubleshooting."
+      ],
+      [
+        "Can the cat tell whether my explanation is correct?",
+        "No. Compare with the original answer and assess your own understanding. The cat’s response marks a successful save, not a correctness judgment. Teach does not count as a normal completed review."
+      ],
+      [
+        "Why is dictation unavailable?",
+        "Check microphone and speech permissions and whether your device supports on-device recognition for the chosen language. Recolio does not fall back to cloud transcription. You can type directly in the explanation field."
+      ],
+      [
+        "Will my explanations sync or return from a backup?",
+        "No. Drafts and completed explanations are local-only and excluded from iCloud sync and backups. Deleting their cards removes associated explanations. Restoring a library clears local explanation records to avoid attaching them to the wrong cards. Reimporting does not restore them. Keep a separate copy of important text before deleting data or reinstalling."
       ]
     ],
     "labels": [
       "Help for the next step",
       "A guide when you’re starting. Answers when you get stuck.",
-      "Import, organize, search, study and sync.",
+      "A little company for your daily reviews. Bring your own flashcards, find words even inside images, and explain what you’re learning to your cat.",
       "Troubleshooting and purchase help.",
       "How local storage, iCloud and permissions work.",
       "Read the guide",
@@ -139,12 +171,12 @@
       "iCloud sync · Recolio Pro",
       "Support by email",
       "Open a GitHub issue",
-      "Effective July 20, 2026 · Updated October 30, 2026",
+      "Effective July 20, 2026 · Updated November 7, 2026",
       "Back to home"
     ],
     "landing": {
       "benefits": [
-        "Import .apkg decks",
+        "Teach the Cat",
         "Search inside images",
         "Your own folders"
       ],
@@ -162,7 +194,35 @@
         "iCloud · Pro"
       ],
       "faqTitle": "A few things worth knowing.",
-      "ctaTitle": "Find your next card. Keep learning."
+      "ctaTitle": "Learn a little. Tell your cat."
+    },
+    "companion": {
+      "eyebrow": "A little cat. A place to think.",
+      "title": "Teach the Cat",
+      "body": "Open a card, explain it in your own words, then compare with the original answer. Add anything you missed, reflect on your understanding and save. Your cat responds when saving succeeds; you decide how well you understood it.",
+      "steps": [
+        "Explain in your own words",
+        "Compare and add what’s missing",
+        "Reflect and save"
+      ],
+      "videoLabel": "Watch the real app demo",
+      "todayAlt": "Today with the Recolio study cat",
+      "teachAlt": "Explaining a card to the cat",
+      "savedAlt": "A saved explanation in Recolio",
+      "boundary": "Explanations stay on this device. They are excluded from iCloud sync and backups. Teach does not submit a normal review rating or change its schedule.",
+      "dictationTitle": "Type or speak, at your pace",
+      "dictationBody": "Supported on-device dictation adds words directly to your explanation. You can edit them or keep typing without clearing existing text. Discard Transcript removes dictated text while preserving your typing. Microphone and speech permissions and device/language support are required; typing remains available.",
+      "reminderTitle": "Optional review reminders",
+      "reminderBody": "Open Settings → Review Reminders to turn them on and allow notifications. On first setup, only 20:00 local time is enabled; 08:00 and 12:30 start off. Edit or disable each slot. Existing settings are preserved. Deck names stay hidden unless you opt in. Tapping a notification opens Today with current counts; delivery depends on system settings.",
+      "settingsTitle": "Your companion, your choice",
+      "settingsBody": "Study Companion and its animation control are in Settings. Turn the companion off to hide the cat without losing access to explanation drafts or history. Turn animations off or enable Reduce Motion for a static character.",
+      "accuracyQ": "Can the cat tell whether my explanation is correct?",
+      "accuracyA": "No. Compare with the original answer and assess your own understanding. The cat’s response marks a successful save, not a correctness judgment. Teach does not count as a normal completed review.",
+      "speechQ": "Why is dictation unavailable?",
+      "speechA": "Check microphone and speech permissions and whether your device supports on-device recognition for the chosen language. Recolio does not fall back to cloud transcription. You can type directly in the explanation field.",
+      "storageQ": "Will my explanations sync or return from a backup?",
+      "storageA": "No. Drafts and completed explanations are local-only and excluded from iCloud sync and backups. Deleting their cards removes associated explanations. Restoring a library clears local explanation records to avoid attaching them to the wrong cards. Reimporting does not restore them. Keep a separate copy of important text before deleting data or reinstalling.",
+      "cta": "Learn a little. Tell your cat."
     }
   },
   "zh-Hans": {
@@ -177,8 +237,8 @@
     ],
     "hero": [
       "适用于 iPhone 和 iPad 的学习卡片",
-      "找到那张卡片，\n马上开始复习。",
-      "导入牌组，或制作自己的卡片。轻松找到所需内容，连图片里的文字也能搜索，找到就能开始复习。",
+      "猫咪陪你学，\n听你亲口讲。",
+      "让每天的复习多一点陪伴。导入自己的卡片，搜索图片中的文字，也把学到的内容讲给猫咪听。",
       "自己的内容，自己的节奏，无需注册 Recolio 账户。"
     ],
     "features": [
@@ -263,6 +323,26 @@
         "safety",
         "安全转移或删除数据",
         "卸载或删除牌组前先导出重要资料。删除 App 不一定删除 iCloud 数据。换兼容设备后，使用购买所用 Apple 账户恢复购买。删除 App 不会取消订阅。"
+      ],
+      [
+        "teach",
+        "讲给猫咪听",
+        "打开卡片，用自己的话解释，再对照原卡答案。补上遗漏，自评理解程度并保存。猫咪在保存成功后回应；内容是否讲清楚，由你自己判断。 讲解仅保存在本机，不参与 iCloud 同步，也不包含在备份中。讲解不会提交正常复习评分或改变复习计划。"
+      ],
+      [
+        "dictation",
+        "打字或说话，按你的节奏",
+        "设备支持时，端侧听写会把文字直接填入讲解框。你可以编辑，也可继续打字，已有内容不会被清空。“丢弃转写”会移除听写内容并保留手动输入。听写需要麦克风、语音识别权限及设备和语言支持；始终可以改用打字。"
+      ],
+      [
+        "reminders",
+        "按需开启复习提醒",
+        "在设置 → 复习提醒中主动开启并允许通知。首次设置只启用本地时间 20:00；08:00 和 12:30 默认关闭。每个时段都可修改或关闭，已有设置会保留。牌组名默认隐藏，主动开启后才显示。点击通知进入 Today 并读取当前数量；送达受系统设置影响。"
+      ],
+      [
+        "companion",
+        "陪伴方式，由你决定",
+        "在设置中管理学习陪伴及其动画。关闭陪伴会隐藏猫咪，但草稿和讲解历史仍可访问。关闭动画或开启系统“减少动态效果”时，角色静止显示。"
       ]
     ],
     "faq": [
@@ -289,12 +369,24 @@
       [
         "联系支持需要提供什么？",
         "请提供 App/构建版本、设备和系统、操作步骤、预期与实际结果、大致牌组/卡片数及完整报错。公开 Issue 中请移除私人内容和受版权保护的文件，删除或重装前先导出重要资料。"
+      ],
+      [
+        "猫咪能判断我讲得对不对吗？",
+        "不能。请对照原卡答案，自行判断理解程度。猫咪回应代表记录保存成功，并非正确性判断。讲解不计入正常复习完成数。"
+      ],
+      [
+        "为什么无法使用听写？",
+        "请检查麦克风、语音识别权限，以及设备是否支持所选语言的端侧识别。Recolio 不会转用云端转写；你可以直接在讲解框中打字。"
+      ],
+      [
+        "讲解会同步或随备份恢复吗？",
+        "不会。草稿和已完成的讲解仅保存在本机，不参与 iCloud 同步或备份。删除相关卡片会删除其讲解；恢复卡库时会清除本机讲解记录，以免错绑。重新导入不会找回这些记录。删除数据或重新安装前，请另行保留重要文字。"
       ]
     ],
     "labels": [
       "下一步，需要时有帮助",
       "入门有手册，遇到问题有解答。",
-      "导入、整理、搜索、学习与同步。",
+      "让每天的复习多一点陪伴。导入自己的卡片，搜索图片中的文字，也把学到的内容讲给猫咪听。",
       "故障排查和购买帮助。",
       "了解本地存储、iCloud 与权限。",
       "阅读手册",
@@ -305,12 +397,12 @@
       "iCloud 同步 · Recolio Pro",
       "邮件支持",
       "创建 GitHub Issue",
-      "生效日期：2026 年 7 月 20 日 · 更新日期：2026 年 10 月 30 日",
+      "生效日期：2026 年 7 月 20 日 · 更新日期：2026 年 11 月 7 日",
       "返回首页"
     ],
     "landing": {
       "benefits": [
-        "导入 .apkg 牌组",
+        "讲给猫咪听",
         "搜索图片文字",
         "自命名文件夹"
       ],
@@ -328,7 +420,35 @@
         "iCloud · Pro"
       ],
       "faqTitle": "开始之前，你可能想知道。",
-      "ctaTitle": "找到下一张卡片，继续学习。"
+      "ctaTitle": "学一点，再讲给猫咪听。"
+    },
+    "companion": {
+      "eyebrow": "一只猫咪，陪你理清思路。",
+      "title": "讲给猫咪听",
+      "body": "打开卡片，用自己的话解释，再对照原卡答案。补上遗漏，自评理解程度并保存。猫咪在保存成功后回应；内容是否讲清楚，由你自己判断。",
+      "steps": [
+        "先用自己的话讲解",
+        "对照答案，补上遗漏",
+        "自评理解并保存"
+      ],
+      "videoLabel": "观看真实 App 演示",
+      "todayAlt": "Today 页面上的 Recolio 学习猫咪",
+      "teachAlt": "向猫咪讲解卡片",
+      "savedAlt": "Recolio 中已保存的讲解",
+      "boundary": "讲解仅保存在本机，不参与 iCloud 同步，也不包含在备份中。讲解不会提交正常复习评分或改变复习计划。",
+      "dictationTitle": "打字或说话，按你的节奏",
+      "dictationBody": "设备支持时，端侧听写会把文字直接填入讲解框。你可以编辑，也可继续打字，已有内容不会被清空。“丢弃转写”会移除听写内容并保留手动输入。听写需要麦克风、语音识别权限及设备和语言支持；始终可以改用打字。",
+      "reminderTitle": "按需开启复习提醒",
+      "reminderBody": "在设置 → 复习提醒中主动开启并允许通知。首次设置只启用本地时间 20:00；08:00 和 12:30 默认关闭。每个时段都可修改或关闭，已有设置会保留。牌组名默认隐藏，主动开启后才显示。点击通知进入 Today 并读取当前数量；送达受系统设置影响。",
+      "settingsTitle": "陪伴方式，由你决定",
+      "settingsBody": "在设置中管理学习陪伴及其动画。关闭陪伴会隐藏猫咪，但草稿和讲解历史仍可访问。关闭动画或开启系统“减少动态效果”时，角色静止显示。",
+      "accuracyQ": "猫咪能判断我讲得对不对吗？",
+      "accuracyA": "不能。请对照原卡答案，自行判断理解程度。猫咪回应代表记录保存成功，并非正确性判断。讲解不计入正常复习完成数。",
+      "speechQ": "为什么无法使用听写？",
+      "speechA": "请检查麦克风、语音识别权限，以及设备是否支持所选语言的端侧识别。Recolio 不会转用云端转写；你可以直接在讲解框中打字。",
+      "storageQ": "讲解会同步或随备份恢复吗？",
+      "storageA": "不会。草稿和已完成的讲解仅保存在本机，不参与 iCloud 同步或备份。删除相关卡片会删除其讲解；恢复卡库时会清除本机讲解记录，以免错绑。重新导入不会找回这些记录。删除数据或重新安装前，请另行保留重要文字。",
+      "cta": "学一点，再讲给猫咪听。"
     }
   },
   "zh-Hant": {
@@ -343,8 +463,8 @@
     ],
     "hero": [
       "適用於 iPhone 與 iPad 的學習卡片",
-      "找到那張卡片，\n馬上開始複習。",
-      "匯入牌組，或製作自己的卡片。輕鬆找到所需內容，連圖片裡的文字也能搜尋，找到就能開始複習。",
+      "貓咪陪你學，\n聽你親口講。",
+      "讓每天的複習多一點陪伴。匯入自己的卡片，搜尋圖片裡的文字，也把學到的內容講給貓咪聽。",
       "自己的教材，自己的步調，無須註冊 Recolio 帳號。"
     ],
     "features": [
@@ -429,6 +549,26 @@
         "safety",
         "安全轉移或刪除資料",
         "解除安裝或刪除牌組前，先匯出重要教材。刪除 App 不一定刪除 iCloud 資料。換用相容裝置後，使用購買時的 Apple 帳號回復購買項目。刪除 App 不會取消訂閱。"
+      ],
+      [
+        "teach",
+        "講給貓咪聽",
+        "打開卡片，用自己的話解釋，再對照原卡答案。補上遺漏，自評理解程度並儲存。貓咪會在儲存成功後回應；內容是否講清楚，由你自己判斷。 解釋僅儲存在本機，不參與 iCloud 同步，也不包含在備份中。解釋不會提交一般複習評分或更改複習排程。"
+      ],
+      [
+        "dictation",
+        "打字或說話，照你的步調",
+        "裝置支援時，裝置端聽寫會將文字直接填入解釋欄。你可以編輯，也能繼續打字，已有內容不會被清除。「捨棄轉寫」會移除聽寫內容並保留手動輸入。聽寫需要麥克風、語音辨識權限及裝置與語言支援；隨時都能改用打字。"
+      ],
+      [
+        "reminders",
+        "依需要開啟複習提醒",
+        "在設定 → 複習提醒中主動開啟並允許通知。首次設定只啟用當地時間 20:00；08:00 和 12:30 預設關閉。每個時段皆可修改或關閉，既有設定會保留。牌組名稱預設隱藏，開啟後才顯示。點選通知會進入 Today 並讀取即時數量；送達受系統設定影響。"
+      ],
+      [
+        "companion",
+        "陪伴方式，由你決定",
+        "在設定中管理學習陪伴及其動畫。關閉陪伴會隱藏貓咪，但草稿與解釋紀錄仍可存取。關閉動畫或開啟系統「減少動態效果」時，角色會靜止顯示。"
       ]
     ],
     "faq": [
@@ -455,12 +595,24 @@
       [
         "聯絡支援需要提供什麼？",
         "請提供 App/組建版本、裝置與系統、操作步驟、預期及實際結果、大致牌組/卡片數與完整錯誤訊息。公開 Issue 請移除私人內容與受著作權保護的檔案；刪除或重新安裝前先匯出重要教材。"
+      ],
+      [
+        "貓咪能判斷我講得對不對嗎？",
+        "不能。請對照原卡答案，自行評估理解程度。貓咪回應代表紀錄儲存成功，並非正確性判斷。解釋不計入一般複習完成數。"
+      ],
+      [
+        "為什麼無法使用聽寫？",
+        "請檢查麥克風、語音辨識權限，以及裝置是否支援所選語言的裝置端辨識。Recolio 不會改用雲端轉寫；你可以直接在解釋欄打字。"
+      ],
+      [
+        "解釋會同步或隨備份回復嗎？",
+        "不會。草稿及完成的解釋僅儲存在本機，不參與 iCloud 同步或備份。刪除相關卡片會刪除其解釋；回復卡庫時會清除本機解釋紀錄，避免連結到錯誤卡片。重新匯入不會找回這些紀錄。刪除資料或重新安裝前，請另外保留重要文字。"
       ]
     ],
     "labels": [
       "下一步，需要時有支援",
       "入門有手冊，遇到問題有解答。",
-      "匯入、整理、搜尋、學習與同步。",
+      "讓每天的複習多一點陪伴。匯入自己的卡片，搜尋圖片裡的文字，也把學到的內容講給貓咪聽。",
       "疑難排解與購買協助。",
       "瞭解本機儲存、iCloud 與權限。",
       "閱讀手冊",
@@ -471,12 +623,12 @@
       "iCloud 同步 · Recolio Pro",
       "電子郵件支援",
       "建立 GitHub Issue",
-      "生效日期：2026 年 7 月 20 日 · 更新日期：2026 年 10 月 30 日",
+      "生效日期：2026 年 7 月 20 日 · 更新日期：2026 年 11 月 7 日",
       "返回首頁"
     ],
     "landing": {
       "benefits": [
-        "匯入 .apkg 牌組",
+        "講給貓咪聽",
         "搜尋圖片文字",
         "自訂名稱資料夾"
       ],
@@ -494,7 +646,35 @@
         "iCloud · Pro"
       ],
       "faqTitle": "開始之前，你可能想知道。",
-      "ctaTitle": "找到下一張卡片，繼續學習。"
+      "ctaTitle": "學一點，再講給貓咪聽。"
+    },
+    "companion": {
+      "eyebrow": "一隻貓咪，陪你釐清思緒。",
+      "title": "講給貓咪聽",
+      "body": "打開卡片，用自己的話解釋，再對照原卡答案。補上遺漏，自評理解程度並儲存。貓咪會在儲存成功後回應；內容是否講清楚，由你自己判斷。",
+      "steps": [
+        "先用自己的話解釋",
+        "對照答案，補上遺漏",
+        "自評理解並儲存"
+      ],
+      "videoLabel": "觀看真實 App 示範",
+      "todayAlt": "Today 頁面上的 Recolio 學習貓咪",
+      "teachAlt": "向貓咪解釋卡片",
+      "savedAlt": "Recolio 中已儲存的解釋",
+      "boundary": "解釋僅儲存在本機，不參與 iCloud 同步，也不包含在備份中。解釋不會提交一般複習評分或更改複習排程。",
+      "dictationTitle": "打字或說話，照你的步調",
+      "dictationBody": "裝置支援時，裝置端聽寫會將文字直接填入解釋欄。你可以編輯，也能繼續打字，已有內容不會被清除。「捨棄轉寫」會移除聽寫內容並保留手動輸入。聽寫需要麥克風、語音辨識權限及裝置與語言支援；隨時都能改用打字。",
+      "reminderTitle": "依需要開啟複習提醒",
+      "reminderBody": "在設定 → 複習提醒中主動開啟並允許通知。首次設定只啟用當地時間 20:00；08:00 和 12:30 預設關閉。每個時段皆可修改或關閉，既有設定會保留。牌組名稱預設隱藏，開啟後才顯示。點選通知會進入 Today 並讀取即時數量；送達受系統設定影響。",
+      "settingsTitle": "陪伴方式，由你決定",
+      "settingsBody": "在設定中管理學習陪伴及其動畫。關閉陪伴會隱藏貓咪，但草稿與解釋紀錄仍可存取。關閉動畫或開啟系統「減少動態效果」時，角色會靜止顯示。",
+      "accuracyQ": "貓咪能判斷我講得對不對嗎？",
+      "accuracyA": "不能。請對照原卡答案，自行評估理解程度。貓咪回應代表紀錄儲存成功，並非正確性判斷。解釋不計入一般複習完成數。",
+      "speechQ": "為什麼無法使用聽寫？",
+      "speechA": "請檢查麥克風、語音辨識權限，以及裝置是否支援所選語言的裝置端辨識。Recolio 不會改用雲端轉寫；你可以直接在解釋欄打字。",
+      "storageQ": "解釋會同步或隨備份回復嗎？",
+      "storageA": "不會。草稿及完成的解釋僅儲存在本機，不參與 iCloud 同步或備份。刪除相關卡片會刪除其解釋；回復卡庫時會清除本機解釋紀錄，避免連結到錯誤卡片。重新匯入不會找回這些紀錄。刪除資料或重新安裝前，請另外保留重要文字。",
+      "cta": "學一點，再講給貓咪聽。"
     }
   },
   "ja": {
@@ -509,8 +689,8 @@
     ],
     "hero": [
       "iPhone・iPad の学習カード",
-      "探していたカードから、\nすぐに復習へ。",
-      "デッキを読み込んでも、自分で作っても。画像の中の文字まで検索できるので、探していたカードを見つけたら、すぐに復習へ。",
+      "勉強のおともは、猫。\n自分の言葉で話してみよう。",
+      "毎日の復習に、小さな相棒を。自分のカードを取り込み、画像の中の文字で探して、学んだことを猫に説明してみましょう。",
       "自分の教材を、自分のペースで。Recolio アカウントの登録は不要です。"
     ],
     "features": [
@@ -595,6 +775,26 @@
         "safety",
         "安全に移行・削除する",
         "アンインストールやデッキ削除の前に重要な教材を書き出してください。アプリを削除しても iCloud データが削除されるとは限りません。別の対応デバイスでは購入した Apple Account で購入を復元します。アプリの削除でサブスクリプションは解約されません。"
+      ],
+      [
+        "teach",
+        "猫に教える",
+        "カードを開き、自分の言葉で説明してから元の答えと見比べます。足りない点を補い、理解度を振り返って保存。保存が完了すると猫が反応します。内容を理解できたかは、自分で判断します。 説明はこの端末だけに保存され、iCloud 同期やバックアップには含まれません。通常の復習評価や復習予定は変更しません。"
+      ],
+      [
+        "dictation",
+        "入力でも、音声でも",
+        "対応端末では、端末内の音声認識で説明欄に文字が直接入ります。編集したり、入力済みの内容を残して続けて入力できます。文字起こしを破棄すると音声入力分が削除され、手入力は残ります。マイク・音声認識の許可と端末・言語の対応が必要です。文字入力も使えます。"
+      ],
+      [
+        "reminders",
+        "復習リマインダーは必要なときに",
+        "設定 → 復習リマインダーで有効にし、通知を許可します。初回設定では現地時間 20:00 のみ有効で、08:00 と 12:30 は無効です。時間帯ごとに変更・無効化でき、既存の設定は保持されます。デッキ名は初期状態で非表示です。通知を開くと Today で現在の件数を再確認します。配信はシステム設定に左右されます。"
+      ],
+      [
+        "companion",
+        "相棒との過ごし方も、自分で",
+        "設定で学習パートナーとアニメーションを管理できます。猫を非表示にしても説明の下書きや履歴は開けます。アニメーションをオフにするか、システムの「視差効果を減らす」を有効にすると静止表示になります。"
       ]
     ],
     "faq": [
@@ -621,12 +821,24 @@
       [
         "問い合わせには何を添えればよいですか？",
         "アプリとビルドのバージョン、端末と OS、再現手順、期待した結果と実際の結果、デッキ・カードのおよその数、エラー全文をお知らせください。公開 Issue には個人情報や著作権のあるファイルを載せないでください。削除や再インストールの前に教材を書き出してください。"
+      ],
+      [
+        "猫が説明の正しさを判断しますか？",
+        "いいえ。元の答えと比べ、自分で理解度を振り返ります。猫の反応は保存完了を示し、正誤判定ではありません。説明は通常の復習完了数に加算されません。"
+      ],
+      [
+        "音声入力が使えないのはなぜですか？",
+        "マイクと音声認識の許可、選んだ言語の端末内認識への対応を確認してください。クラウドでの文字起こしには切り替えません。説明欄に直接入力することもできます。"
+      ],
+      [
+        "説明は同期・バックアップ復元できますか？",
+        "できません。下書きと保存済みの説明は端末内のみで、iCloud 同期やバックアップの対象外です。対応するカードを削除すると説明も削除されます。カード庫の復元時は誤ったカードへの紐付けを防ぐため端末内の説明を消去します。再取り込みでも戻りません。削除・再インストール前に大切な文章を別途控えてください。"
       ]
     ],
     "labels": [
       "次の一歩をサポート",
       "初めての方にはガイドを。困ったときには答えを。",
-      "読み込み・整理・検索・学習・同期の手順。",
+      "毎日の復習に、小さな相棒を。自分のカードを取り込み、画像の中の文字で探して、学んだことを猫に説明してみましょう。",
       "トラブル解決と購入のサポート。",
       "ローカル保存、iCloud、アクセス権について。",
       "使い方を読む",
@@ -637,12 +849,12 @@
       "iCloud 同期 · Recolio Pro",
       "メールで問い合わせる",
       "GitHub Issue を作成",
-      "施行日：2026年7月20日 · 更新日：2026年10月30日",
+      "施行：2026年7月20日 · 更新：2026年11月7日",
       "ホームへ"
     ],
     "landing": {
       "benefits": [
-        ".apkg を読み込み",
+        "猫に教える",
         "画像内の文字も検索",
         "自分のフォルダで整理"
       ],
@@ -660,7 +872,35 @@
         "iCloud · Pro"
       ],
       "faqTitle": "始める前の、気になること。",
-      "ctaTitle": "次のカードを見つけて、学びを続けよう。"
+      "ctaTitle": "少し学んで、猫に話そう。"
+    },
+    "companion": {
+      "eyebrow": "猫と一緒に、考えを整理。",
+      "title": "猫に教える",
+      "body": "カードを開き、自分の言葉で説明してから元の答えと見比べます。足りない点を補い、理解度を振り返って保存。保存が完了すると猫が反応します。内容を理解できたかは、自分で判断します。",
+      "steps": [
+        "自分の言葉で説明",
+        "答えと比べて補足",
+        "振り返って保存"
+      ],
+      "videoLabel": "実際のアプリのデモを見る",
+      "todayAlt": "Today の学習パートナーの猫",
+      "teachAlt": "猫にカードを説明する画面",
+      "savedAlt": "Recolio に保存した説明",
+      "boundary": "説明はこの端末だけに保存され、iCloud 同期やバックアップには含まれません。通常の復習評価や復習予定は変更しません。",
+      "dictationTitle": "入力でも、音声でも",
+      "dictationBody": "対応端末では、端末内の音声認識で説明欄に文字が直接入ります。編集したり、入力済みの内容を残して続けて入力できます。文字起こしを破棄すると音声入力分が削除され、手入力は残ります。マイク・音声認識の許可と端末・言語の対応が必要です。文字入力も使えます。",
+      "reminderTitle": "復習リマインダーは必要なときに",
+      "reminderBody": "設定 → 復習リマインダーで有効にし、通知を許可します。初回設定では現地時間 20:00 のみ有効で、08:00 と 12:30 は無効です。時間帯ごとに変更・無効化でき、既存の設定は保持されます。デッキ名は初期状態で非表示です。通知を開くと Today で現在の件数を再確認します。配信はシステム設定に左右されます。",
+      "settingsTitle": "相棒との過ごし方も、自分で",
+      "settingsBody": "設定で学習パートナーとアニメーションを管理できます。猫を非表示にしても説明の下書きや履歴は開けます。アニメーションをオフにするか、システムの「視差効果を減らす」を有効にすると静止表示になります。",
+      "accuracyQ": "猫が説明の正しさを判断しますか？",
+      "accuracyA": "いいえ。元の答えと比べ、自分で理解度を振り返ります。猫の反応は保存完了を示し、正誤判定ではありません。説明は通常の復習完了数に加算されません。",
+      "speechQ": "音声入力が使えないのはなぜですか？",
+      "speechA": "マイクと音声認識の許可、選んだ言語の端末内認識への対応を確認してください。クラウドでの文字起こしには切り替えません。説明欄に直接入力することもできます。",
+      "storageQ": "説明は同期・バックアップ復元できますか？",
+      "storageA": "できません。下書きと保存済みの説明は端末内のみで、iCloud 同期やバックアップの対象外です。対応するカードを削除すると説明も削除されます。カード庫の復元時は誤ったカードへの紐付けを防ぐため端末内の説明を消去します。再取り込みでも戻りません。削除・再インストール前に大切な文章を別途控えてください。",
+      "cta": "少し学んで、猫に話そう。"
     }
   },
   "ko": {
@@ -675,8 +915,8 @@
     ],
     "hero": [
       "iPhone과 iPad를 위한 학습 카드",
-      "찾던 카드를 만나면,\n바로 복습하세요.",
-      "덱을 가져오거나 직접 카드를 만드세요. 이미지 속 글자까지 검색하고, 찾은 카드를 바로 복습할 수 있어요.",
+      "공부를 함께하는 고양이.\n내 말로 설명해 보세요.",
+      "매일의 복습에 작은 친구를 더하세요. 내 카드를 가져오고, 이미지 속 글자로 검색하고, 배운 내용을 고양이에게 설명해 보세요.",
       "내 학습 자료를 내 속도로. Recolio 계정 가입은 필요 없어요."
     ],
     "features": [
@@ -761,6 +1001,26 @@
         "safety",
         "안전하게 이동하거나 삭제하기",
         "앱을 삭제하거나 덱을 지우기 전에 중요한 자료를 내보내세요. 앱 삭제가 iCloud 데이터 삭제를 뜻하지는 않아요. 다른 호환 기기에서는 구매한 Apple 계정으로 구입 항목을 복원하세요. 앱을 지워도 구독은 취소되지 않아요."
+      ],
+      [
+        "teach",
+        "고양이에게 가르치기",
+        "카드를 열어 내 말로 설명한 뒤 원래 정답과 비교하세요. 빠뜨린 내용을 보충하고 이해도를 돌아본 다음 저장하세요. 저장이 완료되면 고양이가 반응해요. 이해했는지는 내가 직접 판단해요. 설명은 이 기기에만 저장되며 iCloud 동기화와 백업에 포함되지 않아요. 일반 복습 평가를 제출하거나 복습 일정을 바꾸지 않아요."
+      ],
+      [
+        "dictation",
+        "입력도 말하기도 내 속도로",
+        "지원되는 기기에서는 기기 내 받아쓰기가 설명란에 바로 입력돼요. 기존 내용을 지우지 않고 수정하거나 계속 타이핑할 수 있어요. 받아쓰기 내용 버리기는 음성으로 입력한 부분을 지우고 직접 입력한 내용은 남겨요. 마이크·음성 인식 권한과 기기·언어 지원이 필요하며, 언제든 직접 입력할 수 있어요."
+      ],
+      [
+        "reminders",
+        "필요할 때 켜는 복습 알림",
+        "설정 → 복습 알림에서 직접 켜고 알림을 허용하세요. 처음 설정할 때는 현지 시간 20:00만 켜지며 08:00과 12:30은 꺼져 있어요. 시간대별로 수정하거나 끌 수 있고 기존 설정은 유지돼요. 덱 이름은 기본적으로 숨겨져 있어요. 알림을 누르면 Today에서 현재 수량을 다시 확인해요. 전달 여부는 시스템 설정의 영향을 받아요."
+      ],
+      [
+        "companion",
+        "함께하는 방식도 내 선택으로",
+        "설정에서 학습 동반자와 애니메이션을 관리하세요. 고양이를 숨겨도 설명 초안과 기록은 계속 볼 수 있어요. 애니메이션을 끄거나 시스템의 동작 줄이기를 켜면 정적인 캐릭터가 표시돼요."
       ]
     ],
     "faq": [
@@ -787,12 +1047,24 @@
       [
         "문의할 때 무엇을 보내야 하나요?",
         "앱/빌드 버전, 기기와 OS, 재현 단계, 예상 결과와 실제 결과, 대략적인 덱/카드 수, 오류 전문을 알려 주세요. 공개 Issue에서는 개인정보와 저작권이 있는 파일을 제외하세요. 삭제나 재설치 전에 중요한 자료를 내보내세요."
+      ],
+      [
+        "고양이가 설명이 맞는지 판단하나요?",
+        "아니요. 원래 정답과 비교하며 이해도를 직접 평가해요. 고양이의 반응은 저장 완료를 뜻하며 정답 판정이 아니에요. 설명은 일반 복습 완료 수에 포함되지 않아요."
+      ],
+      [
+        "받아쓰기를 사용할 수 없어요.",
+        "마이크·음성 인식 권한과 선택한 언어의 기기 내 인식 지원 여부를 확인하세요. 클라우드 전사로 전환하지 않아요. 설명란에 직접 입력할 수 있어요."
+      ],
+      [
+        "설명이 동기화되거나 백업에서 복원되나요?",
+        "아니요. 초안과 완료된 설명은 기기에만 저장되며 iCloud 동기화와 백업에서 제외돼요. 연결된 카드를 삭제하면 설명도 삭제돼요. 카드 라이브러리를 복원하면 잘못된 연결을 막기 위해 기기의 설명 기록이 지워져요. 다시 가져와도 되살아나지 않아요. 삭제하거나 앱을 다시 설치하기 전에 중요한 글을 따로 보관하세요."
       ]
     ],
     "labels": [
       "다음 단계도 도와드려요",
       "처음에는 가이드를, 막힐 때는 도움말을 확인하세요.",
-      "가져오기, 정리, 검색, 학습, 동기화 안내.",
+      "매일의 복습에 작은 친구를 더하세요. 내 카드를 가져오고, 이미지 속 글자로 검색하고, 배운 내용을 고양이에게 설명해 보세요.",
       "문제 해결과 구매 도움말.",
       "로컬 저장, iCloud, 권한 안내.",
       "가이드 읽기",
@@ -803,12 +1075,12 @@
       "iCloud 동기화 · Recolio Pro",
       "이메일로 문의",
       "GitHub Issue 만들기",
-      "시행일: 2026년 7월 20일 · 수정일: 2026년 10월 30일",
+      "시행일: 2026년 7월 20일 · 수정일: 2026년 11월 7일",
       "홈으로"
     ],
     "landing": {
       "benefits": [
-        ".apkg 덱 가져오기",
+        "고양이에게 가르치기",
         "이미지 속 글자 검색",
         "내 이름으로 폴더 정리"
       ],
@@ -826,7 +1098,35 @@
         "iCloud · Pro"
       ],
       "faqTitle": "시작하기 전에 궁금한 점.",
-      "ctaTitle": "다음 카드를 찾고, 학습을 이어 가세요."
+      "ctaTitle": "조금 배우고, 고양이에게 들려주세요."
+    },
+    "companion": {
+      "eyebrow": "고양이와 함께 생각을 정리해요.",
+      "title": "고양이에게 가르치기",
+      "body": "카드를 열어 내 말로 설명한 뒤 원래 정답과 비교하세요. 빠뜨린 내용을 보충하고 이해도를 돌아본 다음 저장하세요. 저장이 완료되면 고양이가 반응해요. 이해했는지는 내가 직접 판단해요.",
+      "steps": [
+        "내 말로 설명하기",
+        "정답과 비교하고 보충하기",
+        "이해도를 돌아보고 저장하기"
+      ],
+      "videoLabel": "실제 앱 시연 보기",
+      "todayAlt": "Today 화면의 공부 고양이",
+      "teachAlt": "고양이에게 카드를 설명하는 화면",
+      "savedAlt": "Recolio에 저장된 설명",
+      "boundary": "설명은 이 기기에만 저장되며 iCloud 동기화와 백업에 포함되지 않아요. 일반 복습 평가를 제출하거나 복습 일정을 바꾸지 않아요.",
+      "dictationTitle": "입력도 말하기도 내 속도로",
+      "dictationBody": "지원되는 기기에서는 기기 내 받아쓰기가 설명란에 바로 입력돼요. 기존 내용을 지우지 않고 수정하거나 계속 타이핑할 수 있어요. 받아쓰기 내용 버리기는 음성으로 입력한 부분을 지우고 직접 입력한 내용은 남겨요. 마이크·음성 인식 권한과 기기·언어 지원이 필요하며, 언제든 직접 입력할 수 있어요.",
+      "reminderTitle": "필요할 때 켜는 복습 알림",
+      "reminderBody": "설정 → 복습 알림에서 직접 켜고 알림을 허용하세요. 처음 설정할 때는 현지 시간 20:00만 켜지며 08:00과 12:30은 꺼져 있어요. 시간대별로 수정하거나 끌 수 있고 기존 설정은 유지돼요. 덱 이름은 기본적으로 숨겨져 있어요. 알림을 누르면 Today에서 현재 수량을 다시 확인해요. 전달 여부는 시스템 설정의 영향을 받아요.",
+      "settingsTitle": "함께하는 방식도 내 선택으로",
+      "settingsBody": "설정에서 학습 동반자와 애니메이션을 관리하세요. 고양이를 숨겨도 설명 초안과 기록은 계속 볼 수 있어요. 애니메이션을 끄거나 시스템의 동작 줄이기를 켜면 정적인 캐릭터가 표시돼요.",
+      "accuracyQ": "고양이가 설명이 맞는지 판단하나요?",
+      "accuracyA": "아니요. 원래 정답과 비교하며 이해도를 직접 평가해요. 고양이의 반응은 저장 완료를 뜻하며 정답 판정이 아니에요. 설명은 일반 복습 완료 수에 포함되지 않아요.",
+      "speechQ": "받아쓰기를 사용할 수 없어요.",
+      "speechA": "마이크·음성 인식 권한과 선택한 언어의 기기 내 인식 지원 여부를 확인하세요. 클라우드 전사로 전환하지 않아요. 설명란에 직접 입력할 수 있어요.",
+      "storageQ": "설명이 동기화되거나 백업에서 복원되나요?",
+      "storageA": "아니요. 초안과 완료된 설명은 기기에만 저장되며 iCloud 동기화와 백업에서 제외돼요. 연결된 카드를 삭제하면 설명도 삭제돼요. 카드 라이브러리를 복원하면 잘못된 연결을 막기 위해 기기의 설명 기록이 지워져요. 다시 가져와도 되살아나지 않아요. 삭제하거나 앱을 다시 설치하기 전에 중요한 글을 따로 보관하세요.",
+      "cta": "조금 배우고, 고양이에게 들려주세요."
     }
   },
   "es": {
@@ -841,8 +1141,8 @@
     ],
     "hero": [
       "Tarjetas de estudio para iPhone y iPad",
-      "Encuentra tu tarjeta.\nVuelve a repasar.",
-      "Importa un mazo o crea tus tarjetas. Encuentra lo que buscas, incluso palabras en imágenes, y empieza a repasar al momento.",
+      "Un gato para acompañarte.\nExplícalo con tus palabras.",
+      "Un poco de compañía para tus repasos. Importa tus tarjetas, busca palabras incluso dentro de las imágenes y explícale a tu gato lo que estás aprendiendo.",
       "Tu material, a tu ritmo. Sin crear una cuenta de Recolio."
     ],
     "features": [
@@ -927,6 +1227,26 @@
         "safety",
         "Traslada o elimina datos con cuidado",
         "Exporta lo importante antes de desinstalar o borrar un mazo. Borrar la app no elimina necesariamente los datos de iCloud. En otro dispositivo compatible, restaura las compras con la cuenta de Apple usada para comprar. Borrar la app no cancela la suscripción."
+      ],
+      [
+        "teach",
+        "Enséñale al gato",
+        "Abre una tarjeta, explícala con tus palabras y compárala con la respuesta original. Añade lo que faltaba, valora tu comprensión y guarda. Tu gato reacciona cuando se guarda; tú decides cuánto has entendido. Las explicaciones solo se guardan en este dispositivo. No se incluyen en iCloud ni en las copias de seguridad. Enseñar no envía una valoración de repaso ni modifica su programación."
+      ],
+      [
+        "dictation",
+        "Escribe o habla a tu ritmo",
+        "En dispositivos compatibles, el dictado local añade texto directamente a tu explicación. Puedes corregirlo o seguir escribiendo sin borrar lo anterior. Descartar la transcripción elimina el texto dictado y conserva lo que escribiste. Requiere permisos de micrófono y reconocimiento de voz, además de compatibilidad del dispositivo y el idioma. Siempre puedes escribir."
+      ],
+      [
+        "reminders",
+        "Recordatorios de repaso opcionales",
+        "Actívalos en Ajustes → Recordatorios de repaso y permite las notificaciones. La primera configuración solo activa las 20:00, hora local; las 08:00 y las 12:30 empiezan desactivadas. Puedes editar o desactivar cada horario; se conservan los ajustes existentes. Los nombres de mazos se ocultan por defecto. Al tocar una notificación, Today consulta los recuentos actuales. La entrega depende de los ajustes del sistema."
+      ],
+      [
+        "companion",
+        "Tú eliges la compañía",
+        "Gestiona el compañero de estudio y sus animaciones en Ajustes. Ocultar al gato no impide acceder a borradores e historial de explicaciones. Desactiva las animaciones o activa Reducir movimiento para mostrar un personaje estático."
       ]
     ],
     "faq": [
@@ -953,12 +1273,24 @@
       [
         "¿Qué envío a soporte?",
         "Incluye versión y compilación, dispositivo y sistema, pasos, resultado esperado y real, número aproximado de mazos/tarjetas y error completo. Retira datos privados y archivos con derechos de autor de las incidencias públicas. Exporta lo importante antes de borrar o reinstalar."
+      ],
+      [
+        "¿El gato sabe si mi explicación es correcta?",
+        "No. Compara con la respuesta original y valora tu comprensión. La reacción del gato indica que se ha guardado, no que la respuesta sea correcta. Enseñar no cuenta como un repaso normal completado."
+      ],
+      [
+        "¿Por qué no puedo usar el dictado?",
+        "Comprueba los permisos de micrófono y reconocimiento de voz, y si el dispositivo admite reconocimiento local en el idioma elegido. Recolio no pasa a transcripción en la nube. Puedes escribir directamente en el campo de explicación."
+      ],
+      [
+        "¿Se sincronizan o restauran mis explicaciones?",
+        "No. Los borradores y las explicaciones completadas son locales y quedan fuera de iCloud y las copias de seguridad. Al borrar una tarjeta se eliminan sus explicaciones. Restaurar la biblioteca borra los registros locales de explicación para evitar asociaciones incorrectas. Volver a importar no los recupera. Conserva aparte el texto importante antes de borrar datos o reinstalar."
       ]
     ],
     "labels": [
       "Ayuda para el siguiente paso",
       "Una guía para empezar. Respuestas cuando las necesitas.",
-      "Importa, organiza, busca, estudia y sincroniza.",
+      "Un poco de compañía para tus repasos. Importa tus tarjetas, busca palabras incluso dentro de las imágenes y explícale a tu gato lo que estás aprendiendo.",
       "Solución de problemas y ayuda con compras.",
       "Almacenamiento local, iCloud y permisos.",
       "Leer la guía",
@@ -969,12 +1301,12 @@
       "Sincronización iCloud · Recolio Pro",
       "Escribir un correo",
       "Crear incidencia en GitHub",
-      "En vigor: 20 de julio de 2026 · Actualizado: 30 de octubre de 2026",
+      "En vigor desde el 20 de julio de 2026 · Actualizado el 7 de noviembre de 2026",
       "Volver al inicio"
     ],
     "landing": {
       "benefits": [
-        "Importa mazos .apkg",
+        "Enséñale al gato",
         "Busca texto en imágenes",
         "Carpetas a tu manera"
       ],
@@ -992,7 +1324,35 @@
         "iCloud · Pro"
       ],
       "faqTitle": "Lo que quizá quieras saber.",
-      "ctaTitle": "Encuentra tu próxima tarjeta. Sigue aprendiendo."
+      "ctaTitle": "Aprende un poco. Cuéntaselo a tu gato."
+    },
+    "companion": {
+      "eyebrow": "Un gato con quien ordenar tus ideas.",
+      "title": "Enséñale al gato",
+      "body": "Abre una tarjeta, explícala con tus palabras y compárala con la respuesta original. Añade lo que faltaba, valora tu comprensión y guarda. Tu gato reacciona cuando se guarda; tú decides cuánto has entendido.",
+      "steps": [
+        "Explica con tus palabras",
+        "Compara y completa",
+        "Reflexiona y guarda"
+      ],
+      "videoLabel": "Ver una demostración real",
+      "todayAlt": "El gato de estudio en Today",
+      "teachAlt": "Explicación de una tarjeta al gato",
+      "savedAlt": "Una explicación guardada en Recolio",
+      "boundary": "Las explicaciones solo se guardan en este dispositivo. No se incluyen en iCloud ni en las copias de seguridad. Enseñar no envía una valoración de repaso ni modifica su programación.",
+      "dictationTitle": "Escribe o habla a tu ritmo",
+      "dictationBody": "En dispositivos compatibles, el dictado local añade texto directamente a tu explicación. Puedes corregirlo o seguir escribiendo sin borrar lo anterior. Descartar la transcripción elimina el texto dictado y conserva lo que escribiste. Requiere permisos de micrófono y reconocimiento de voz, además de compatibilidad del dispositivo y el idioma. Siempre puedes escribir.",
+      "reminderTitle": "Recordatorios de repaso opcionales",
+      "reminderBody": "Actívalos en Ajustes → Recordatorios de repaso y permite las notificaciones. La primera configuración solo activa las 20:00, hora local; las 08:00 y las 12:30 empiezan desactivadas. Puedes editar o desactivar cada horario; se conservan los ajustes existentes. Los nombres de mazos se ocultan por defecto. Al tocar una notificación, Today consulta los recuentos actuales. La entrega depende de los ajustes del sistema.",
+      "settingsTitle": "Tú eliges la compañía",
+      "settingsBody": "Gestiona el compañero de estudio y sus animaciones en Ajustes. Ocultar al gato no impide acceder a borradores e historial de explicaciones. Desactiva las animaciones o activa Reducir movimiento para mostrar un personaje estático.",
+      "accuracyQ": "¿El gato sabe si mi explicación es correcta?",
+      "accuracyA": "No. Compara con la respuesta original y valora tu comprensión. La reacción del gato indica que se ha guardado, no que la respuesta sea correcta. Enseñar no cuenta como un repaso normal completado.",
+      "speechQ": "¿Por qué no puedo usar el dictado?",
+      "speechA": "Comprueba los permisos de micrófono y reconocimiento de voz, y si el dispositivo admite reconocimiento local en el idioma elegido. Recolio no pasa a transcripción en la nube. Puedes escribir directamente en el campo de explicación.",
+      "storageQ": "¿Se sincronizan o restauran mis explicaciones?",
+      "storageA": "No. Los borradores y las explicaciones completadas son locales y quedan fuera de iCloud y las copias de seguridad. Al borrar una tarjeta se eliminan sus explicaciones. Restaurar la biblioteca borra los registros locales de explicación para evitar asociaciones incorrectas. Volver a importar no los recupera. Conserva aparte el texto importante antes de borrar datos o reinstalar.",
+      "cta": "Aprende un poco. Cuéntaselo a tu gato."
     }
   }
 }

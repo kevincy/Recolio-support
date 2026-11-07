@@ -1,0 +1,44 @@
+[
+  {
+    "language": "en",
+    "file": "assets/videos/en/companion.mp4",
+    "source": "../Remin-NA/screenshots/recolio-companion-launch-20261106/app-previews/iphone/en/Recolio-App-Preview.mp4",
+    "sha256": "0f290b14f3b460fb3176183bf52576f9bb86a1a7c1968ac803615d6483ce54a1",
+    "description": "Real App footage and UI screenshot holds; silent edited demonstration, not live dictation."
+  },
+  {
+    "language": "es",
+    "file": "assets/videos/es/companion.mp4",
+    "source": "../Remin-NA/screenshots/recolio-companion-launch-20261106/app-previews/iphone/es/Recolio-App-Preview.mp4",
+    "sha256": "a7ff931b0bbff24a2b81e60f9e8623e72e55a7a3af2e0a9a392e957f225ccb89",
+    "description": "Real App footage and UI screenshot holds; silent edited demonstration, not live dictation."
+  },
+  {
+    "language": "ja",
+    "file": "assets/videos/ja/companion.mp4",
+    "source": "../Remin-NA/screenshots/recolio-companion-launch-20261106/app-previews/iphone/ja/Recolio-App-Preview.mp4",
+    "sha256": "6eb4979809b0a85f44ddc158c45c5f9544721fb33ed28b68dbd434a491564bc7",
+    "description": "Real App footage and UI screenshot holds; silent edited demonstration, not live dictation."
+  },
+  {
+    "language": "ko",
+    "file": "assets/videos/ko/companion.mp4",
+    "source": "../Remin-NA/screenshots/recolio-companion-launch-20261106/app-previews/iphone/ko/Recolio-App-Preview.mp4",
+    "sha256": "87c69609faa9578f7b0517fa69ca87ebce693fd9b2e70b1d1a57677f70898f2e",
+    "description": "Real App footage and UI screenshot holds; silent edited demonstration, not live dictation."
+  },
+  {
+    "language": "zh-Hans",
+    "file": "assets/videos/zh-Hans/companion.mp4",
+    "source": "../Remin-NA/screenshots/recolio-companion-launch-20261106/app-previews/iphone/zh-Hans/Recolio-App-Preview.mp4",
+    "sha256": "4ec33f986b2210d21769c15d75922ba0f543f0914952f75ee4df3282cb607dd2",
+    "description": "Real App footage and UI screenshot holds; silent edited demonstration, not live dictation."
+  },
+  {
+    "language": "zh-Hant",
+    "file": "assets/videos/zh-Hant/companion.mp4",
+    "source": "../Remin-NA/screenshots/recolio-companion-launch-20261106/app-previews/iphone/zh-Hant/Recolio-App-Preview.mp4",
+    "sha256": "bd98ded35b0c8d8d64a0bd4fabaaa95c4b7c449f4563bf0da3624e4be04cac76",
+    "description": "Real App footage and UI screenshot holds; silent edited demonstration, not live dictation."
+  }
+]

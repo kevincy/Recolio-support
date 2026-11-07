@@ -24,6 +24,7 @@
   }
   function chooseLanguage(language) {
     const value = supportedLanguage(language) || 'en';
+    document.querySelectorAll('video').forEach(video => { if (video.closest('[data-locale]')?.dataset.locale !== value) video.pause(); });
     root.dataset.language = value;
     root.lang = value;
     updateInternalLinks(value);
@@ -35,8 +36,9 @@
       document.title = content.dataset.title;
       const meta = document.querySelector('meta[name="description"]');
       if (meta) meta.setAttribute('content', content.dataset.description);
-      content.querySelectorAll('img[data-src]').forEach(img => {
-        if (!img.getAttribute('src')) img.setAttribute('src', img.dataset.src);
+      content.querySelectorAll('img[data-src], video[data-src]').forEach(media => {
+        if (!media.getAttribute('src')) media.setAttribute('src', media.dataset.src);
+        if (media.dataset.poster) media.setAttribute('poster', media.dataset.poster);
       });
     }
   }

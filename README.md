@@ -2,7 +2,7 @@
 
 GitHub Pages: **https://kevincy.github.io/Recolio-support/**
 
-A buildless-at-runtime product homepage with an interactive real-screenshot tour, three-step onboarding story, homepage FAQ and download call to action; with a user guide, troubleshooting, privacy policy and terms. Uses existing genuine app screenshots with original sample content; no fabricated app UI, analytics, third-party fonts or tracking scripts.
+A buildless-at-runtime product homepage with an interactive real-screenshot tour, cat-companion hero, Teach the Cat explanation flow, localized non-autoplay App videos, three-step onboarding story, homepage FAQ and download call to action; with a user guide, troubleshooting, privacy policy and terms. Uses existing genuine app screenshots with original sample content; no fabricated app UI, analytics, third-party fonts or tracking scripts.
 
 ## Six complete languages
 
@@ -23,7 +23,7 @@ Examples:
 - `content/site.json`: canonical six-language product copy, navigation, guide and FAQ.
 - `content/privacy.json`, `content/terms.json`: all six policy bodies. English/Chinese originals retained except the documented allowance/current-Pro clarification, folder terminology and consolidated contact block.
 - `scripts/build.py`: renders all five HTML routes with static content and English fallback. No client-side translation service or runtime fetch.
-- `assets/screenshots/manifest.json`: source paths/hashes and web-image hashes for 30 localized screenshot derivatives. UI content is unchanged; only image scaling/WebP encoding is applied.
+- `assets/screenshots/manifest.json`: source paths/hashes and web-image hashes for 48 localized screenshot derivatives. UI content is unchanged; only image scaling/WebP encoding is applied.
 - `assets/site.js`: shared language routing, image hydration and link preservation.
 
 ```sh
@@ -41,4 +41,8 @@ Pushes to `main` run build-freshness, coverage/link/image and routing checks bef
 
 iCloud sync is optional, off by default, requires Pro, the same Apple Account, iCloud permissions, storage and network access. It is not an independent backup. Preview does not affect study history; ratings do. Search finds recognized image text, not similar images or objects. Import compatibility varies. Free import exceptions and the 1,000-card study limit are described separately in the guide and terms.
 
-Translations received AI editorial review; no human native-language approval or legal clearance is claimed. See `DELIVERY_20261030.md` for checks, sources and deployment evidence.
+Translations received AI editorial review; no human native-language approval or legal clearance is claimed. See `DELIVERY_20261107_COMPANION.md` for checks, sources and deployment evidence.
+
+## Companion update
+
+New guide sections cover Teach, on-device dictation, optional local reminders and companion/motion settings. Explanations are local-only, excluded from iCloud/backup; Teach does not grade correctness or submit FSRS ratings. Six localized real App videos use controls and no autoplay; switching website language pauses hidden-language video. The page uses the latest existing launch captures, not generated UI. `assets/videos/manifest.json` preserves hashes and sources.
